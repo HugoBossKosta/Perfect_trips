@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+}
+
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: antiquewhite;
+}
+
+.container {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.header-block {
+  width: 60vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  background: rgba(243, 239, 232, 0.6);
+}
+.header-block__logo {
+  width: 9.5vw;
+}
+.header-block__logo-img {
+  width: 181px;
+  height: 30px;
+}
+.header-block__ul {
+  width: 21vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+}/*# sourceMappingURL=style.css.map */
