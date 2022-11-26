@@ -1,9 +1,10 @@
 @import './variables.scss';
 
+
 //блок который есть всегда
 .Vheader-block {
-    position: absolute;
     width: 100vw;
+    position: absolute;
     top: 0;
     height: 90px;
     display: flex;
@@ -11,15 +12,17 @@
     justify-content: space-between;
     flex-flow: row;
 
-
-    // &__logo {
-    //     width: calc(var(--index) * 12);
-    // }
-
-    // &__nav {
-    //     width: 32vw;
-    // }
-
+    &__logo {
+        width: 15vw;
+        padding-left: 20vw;
+    }
+    &__logo-img {
+        width: 181px;
+        height: 31px;
+    }
+    &__nav {
+        width: 25vw;
+    }
     &__ul {
         display: flex;
         align-items: center;
@@ -31,10 +34,13 @@
     &__li {
         cursor: pointer;
     }
-
-   
+    &__number{
+        width: 12vw;
+        text-align: end;
+        padding-right: 20vw;
+    }
     &__a {
-        color:  #FFFFFF;;
+        color:  #FFFFFF;
     }
 }
 
@@ -51,14 +57,17 @@
     transition: 1s;
     background: rgba(243, 239, 232, 0.6);
 
-    // &__logo {
-    //     width: calc(var(--index) * 12);
-    // }
-
-    // &__nav {
-    //     width: 32vw;
-    // }
-
+    &__logo {
+        width: 15vw;
+        padding-left: 20vw;
+    }
+    &__logo-img {
+        width: 181px;
+        height: 31px;
+    }
+    &__nav {
+        width: 25vw;
+    }
     &__ul {
         display: flex;
         align-items: center;
@@ -67,11 +76,42 @@
         color:  #FFFFFF;
     }
 
+    &__li {
+        cursor: pointer;
+    }
+    &__number{
+        width: 12vw;
+        text-align: end;
+        padding-right: 20vw;
+    }
+    &__a {
+        color:  #FFFFFF;
+    }
+
     &__hidden {
         transform: translateY(-100%);
       }
+}
 
-    &__a {
-        color:  #FFFFFF;;
+
+.underheader-block {
+    background-image: url('../image/underHeader/Underheader_Background.jpg');
+    height: 77vh;
+    // background-size: cover;
+    background-size: 100% 100%;
+    &__title {
+        width: 40vw;
+        font-size: 96px;
+        padding-top: 9vh;
+        margin-bottom: 4vh;
+    }
+    &__description {
+        width: 30vw;
+        margin-bottom: 5vh;
+        padding-top: 0vh;
+    }
+    &__button {
+        padding: 1vh 1vw;
+        min-width: 1vw;
     }
 }
