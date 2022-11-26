@@ -1,0 +1,68 @@
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+.Vheader-block {
+  width: 60vw;
+  top: 0;
+  height: 90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  transition: 1s;
+}
+.Vheader-block__logo {
+  width: calc(var(--index) * 8);
+}
+.Vheader-block__logo-img {
+  width: 100%;
+}
+.Vheader-block__ul {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  color: #FFFFFF;
+}
+.Vheader-block__li {
+  cursor: pointer;
+}
+.Vheader-block__a {
+  color: #FFFFFF;
+}
+
+.header-block {
+  width: 60vw;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  transition: 1s;
+  background: rgba(243, 239, 232, 0.6);
+}
+.header-block__logo {
+  width: 9.5vw;
+}
+.header-block__logo-img {
+  width: calc(var(--index) * 8);
+}
+.header-block__ul {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  color: #FFFFFF;
+}
+.header-block__hidden {
+  transform: translateY(-100%);
+}
+.header-block__a {
+  color: #FFFFFF;
+}/*# sourceMappingURL=header.css.map */

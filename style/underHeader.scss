@@ -1,0 +1,32 @@
+@import './mixin.scss';
+
+.main {
+    width: 100%;
+
+}
+
+.underheader-block {
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title{
+        text-align: center;
+        @include adaptiv-font(96,34);
+        font-weight: 700;
+        line-height: 109%;
+    }
+    &__description {
+        text-align: center;
+    }
+
+    &__button {
+        border-radius: 10px;
+        background: #FFFFFF;
+        color: #1B1F2B;
+    }
+
+}

@@ -1,0 +1,77 @@
+@import './variables.scss';
+
+//блок который есть всегда
+.Vheader-block {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row;
+
+
+    // &__logo {
+    //     width: calc(var(--index) * 12);
+    // }
+
+    // &__nav {
+    //     width: 32vw;
+    // }
+
+    &__ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: row;
+        color:  #FFFFFF;
+    }
+
+    &__li {
+        cursor: pointer;
+    }
+
+   
+    &__a {
+        color:  #FFFFFF;;
+    }
+}
+
+//блок который пояаляется
+.header-block {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row;
+    transition: 1s;
+    background: rgba(243, 239, 232, 0.6);
+
+    // &__logo {
+    //     width: calc(var(--index) * 12);
+    // }
+
+    // &__nav {
+    //     width: 32vw;
+    // }
+
+    &__ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: row;
+        color:  #FFFFFF;
+    }
+
+    &__hidden {
+        transform: translateY(-100%);
+      }
+
+    &__a {
+        color:  #FFFFFF;;
+    }
+}

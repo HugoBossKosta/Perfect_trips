@@ -1,0 +1,22 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .header-block {
+    width: 80vw;
+  }
+  .Vheader-block {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 360px) {
+  .Vheader-block {
+    width: 85vw;
+    background-color: red;
+  }
+  .Vheader-block__logo-img {
+    width: 133px;
+    height: 22px;
+  }
+}/*# sourceMappingURL=media.css.map */

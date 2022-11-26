@@ -1,0 +1,27 @@
+
+
+.chooseTour-block {
+    &__text {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 106px;
+    }
+
+    &__title {
+        width: 30vw;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    &__ul {
+        width: 35vw;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}
