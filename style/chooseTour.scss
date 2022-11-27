@@ -1,4 +1,4 @@
-
+@import './mixin.scss';
 
 .chooseTour-block {
     &__text {
@@ -42,14 +42,76 @@
 
 .listTour {
     display: inline-block;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
 
     &__img {
+        position: relative;
+        overflow: hidden;
         display: inline-block;
-        width: 370px;
+        width: 18vw;
+        height: 27vh;
+        min-height: 531px;
+        min-width: 250px;
         height: 531px;
         background-size: cover;
-        border-radius: 50px;
+        background-position: 55% 50%;
+        border-radius: 60px;
+        margin-bottom: 2.5vh;
+        cursor: pointer;
     }
 
+    &__listTour__1:hover .listTour__img{
+        transform: scale(1.2);
+    }
+
+    &__text {
+        padding: 4vh 2vw 4vh 2vw;
+    }
+
+    &__title {
+        @include adaptiv-font(35,23);
+        color: #FFFFFF;
+        line-height: 122%;
+        margin-bottom: 2vh;
+        font-weight: 500;
+    }
+
+    &__description {
+        @include adaptiv-font(17,16);
+        margin-bottom: 30vh;
+        color: #FFFFFF;
+        line-height: 142%;
+        letter-spacing: -0.01em;
+        font-weight: 400;
+
+    }
+    
+    &__arrow {
+       fill: white;
+    }
+
+    &__details {
+        @include adaptiv-font(23,16);
+        font-weight: 700;
+        line-height: 122%;
+        color: #FFFFFF;
+        margin-right: 1vw;
+    }
+
+}
+
+.listTour .listTour__img:not(:last-child):not(:nth-child(3)) {
+    margin-right: 2vw;
+}
+
+// .listTour .listTour__img:nth-child(3) {
+//     margin-right: 0vw;
+// }
+
+svg {
+    fill: white;
 }

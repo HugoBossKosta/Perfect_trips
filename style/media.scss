@@ -72,7 +72,8 @@
     }
 
     .underheader-block {
-        background-image: url('../image/underHeader/Mini_underheader_Background.png');
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+         url('../image/underHeader/Mini_underheader_Background.png');
         height: 108vh;
         background-size: 100% 100%;
         &__title {
@@ -139,7 +140,8 @@
     }
 
     .underheader-block {
-        background-image: url('../image/underHeader/Mini_underheader_Background.png');
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+         url('../image/underHeader/Mini_underheader_Background.png');
         height: 66vh;
         background-position: 28% 50%;
         background-size: cover;

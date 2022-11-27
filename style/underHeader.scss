@@ -13,21 +13,33 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 135px;
+    background-image: url('../image/underHeader/Underheader_Background.jpg');
+    height: 77vh;
+    background-size: 100% 100%;
 
     &__title{
         text-align: center;
         @include adaptiv-font(96,34);
         font-weight: 700;
         line-height: 109%;
+        width: 40vw;
+        font-size: 96px;
+        padding-top: 9vh;
+        margin-bottom: 4vh;
     }
     &__description {
         text-align: center;
+        width: 30vw;
+        margin-bottom: 5vh;
+        padding-top: 0vh;
     }
 
     &__button {
         border-radius: 10px;
         background: #FFFFFF;
         color: #1B1F2B;
+        padding: 1vh 1vw;
+        min-width: 1vw;
     }
 
 }
