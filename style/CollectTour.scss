@@ -21,6 +21,8 @@
 
 .form {
 display: flex;
+justify-content: space-between;
+align-items: center;
 flex-flow: row;
 flex-wrap: wrap;
 background: #FFFFFF;
@@ -29,7 +31,39 @@ padding: 7vh 7vw 7vh 7vw;
 
 
 
+&__item {
+    width: 48%;
+    margin-bottom: 3.3vh;
+}
+
+&__underInput {
+    margin-bottom: 0.8vh;
+}
+
+&__input {
+    display: inline-block;
+    width:100%;
+}
+
+&__select {
+    width: 100% !important;
+}
+
+&__textarea {
+    width: 100%; 
+    resize: none;
+    box-sizing: border-box;
+
+}
+
+}
 
 
+.textArea-item {
+    width: 100%;
+    margin-bottom: 3.3vh;
+}
 
+.textArea-item textarea {
+    width: 100%;
 }
