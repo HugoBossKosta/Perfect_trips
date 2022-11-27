@@ -1,6 +1,8 @@
 @import './header.scss';
 @import './underHeader.scss';
 @import './chooseTour.scss';
+@import './CollectTour.scss';
+
 @import './mixin.scss';
 @import './links.scss';
 
@@ -16,15 +18,20 @@ a {
 }
 
 .container {
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 19vw;
+    padding-right: 19vw;
   }
-
+  @media screen and (max-width:1024px) {
+    .container {
+        padding-left: 4.5vw;
+        padding-right: 4.5vw;
+      }
+  }
 
 body {
     position: relative;
     font-family: 'Roboto',"Arial", sans-serif;
-    background-color: antiquewhite;
+    background: #F4F0E9;
   }
 
 
@@ -40,13 +47,68 @@ body {
     line-height: 122%;
     font-weight: 700;
     color: #1B1F2B;
+@media screen and (max-width:1024px) {
+    font-size: 23px;
 }
+@media screen and (max-width:360px) {
+    line-height: 142%;
+    font-size: 16px;
+}
+}
+
+.text3{
+    @include adaptiv-font(20,16);
+    line-height: 142%;
+    font-weight: 400;
+@media screen and (max-width:1024px) {
+    font-size: 20px;
+}
+@media screen and (max-width:360px) {
+    font-size: 16px;
+    line-height: 142%;
+}
+}
+
+.textForm {
+    @include adaptiv-font(20,16);
+    width: 10vw;
+    background: #F9F7F4;
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 400;
+    line-height: 142%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #1B1F2B;
+ 
+
+
+}
+
+
 
 .text-title {
     white-space: nowrap;
     @include adaptiv-font(59,34);
     line-height: 109%;
     font-weight: 700;
+    @media screen and (max-width:1024px) {
+        font-size: 59px;
+    }
+    @media screen and (max-width:360px){
+        font-size: 34px;
+        line-height: 112%;
+    }
+    @media screen and (max-width:1024px) {
+        font-size: 20px;
+    }
+    @media screen and (max-width:360px){
+        font-size: 16px;
+    }
+
 }
 
 
@@ -71,4 +133,23 @@ body {
 
 
 
+
+select:hover {
+    background: #F4F0E9;
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+}
+
+select:valid { color: #1B1F2B; }
+select:invalid {
+    color: #A6A6A6;
+}
+
+
+input::placeholder {
+    color: #A6A6A6;
+}
+input:hover {
+    background: #F4F0E9;
+}
 

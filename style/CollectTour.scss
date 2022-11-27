@@ -1,0 +1,35 @@
+@import './mixin.scss';
+
+.CollectTour {
+    margin-bottom: 20vh;
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        margin-bottom: 10vh;
+    }
+    &__title {
+        margin-bottom: 3vh;
+    }
+    &__description {
+        text-align: center;
+        width: 25vw;
+    }
+
+}
+
+.form {
+display: flex;
+flex-flow: row;
+flex-wrap: wrap;
+background: #FFFFFF;
+border-radius: 50px;
+padding: 7vh 7vw 7vh 7vw;
+
+
+
+
+
+
+}
