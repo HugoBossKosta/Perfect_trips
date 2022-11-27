@@ -43,12 +43,58 @@ document.addEventListener('DOMContentLoaded', () => {
             else {
                 header.classList.add('header-block__hidden');
             }
-
         });
     }
     onScrollHeader();
-
 });
+
+
+
+// Выделение кнопки при наведении на карточку
+
+hoverOnCard = () => {
+    document.getElementById("hoverTour").classList.add("activeTour");
+}
+hoverOnCard2 = () => {
+    document.getElementById("hoverTour2").classList.add("activeTour");
+}
+hoverOnCard3 = () => {
+    document.getElementById("hoverTour3").classList.add("activeTour");
+}
+hoverOnCard4 = () => {
+    document.getElementById("hoverTour4").classList.add("activeTour");
+}
+hoverOnCard5 = () => {
+    document.getElementById("hoverTour5").classList.add("activeTour");
+}
+hoverOnCard6 = () => {
+    document.getElementById("hoverTour6").classList.add("activeTour");
+}
+
+
+hoverOffCard = () => {
+    document.getElementById("hoverTour").classList.remove("activeTour");
+}
+hoverOffCard2 = () => {
+    document.getElementById("hoverTour2").classList.remove("activeTour");
+}
+hoverOffCard3 = () => {
+    document.getElementById("hoverTour3").classList.remove("activeTour");
+}
+hoverOffCard4 = () => {
+    document.getElementById("hoverTour4").classList.remove("activeTour");
+}
+hoverOffCard5 = () => {
+    document.getElementById("hoverTour5").classList.remove("activeTour");
+}
+hoverOffCard6 = () => {
+    document.getElementById("hoverTour6").classList.remove("activeTour");
+}
+
+
+
+
+
 
 
 

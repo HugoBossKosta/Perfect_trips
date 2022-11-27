@@ -71,7 +71,7 @@
         <div class="underheader-block">
             <h1 class="underheader-block__title">Идеальные путешествия существуют</h1>
             <p class="underheader-block__description text">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
-            <button class="underheader-block__button button">Найти тур</button>
+            <button class="underheader-block__button button buttonGreen">Найти тур</button>
         </div>
 
         <div class="chooseTour-block">
@@ -90,72 +90,97 @@
 
             <div class="container">
                 <div class="chooseTour-block__imgs listTour">
-                <span class="listTour__1">
-                    <span class="listTour__img" style="background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(./image/chooseTour/cardTour_1.jpg)">
-                        <div class="listTour__text">
-                            <div class="listTour__title">Путешествие в горы</div>
-                            <div class="listTour__description">от 80 000 руб</div>
-                            <div class="listTour__bottom">
-                                <span class="listTour__details">Подробнее</span>
-                                <img src="./image/chooseTour/arrow.svg" alt="" class="ListTour__arrow">
-                            </div>
-                        </div>
-                    </span>
-                </span>
-                    <span class="listTour__img" style="background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(./image/chooseTour/cardTour_2.jpg)">
-                        <div class="listTour__text">
-                            <div class="listTour__title">Путешествие в горы</div>
-                            <div class="listTour__description">от 80 000 руб</div>
-                            <div class="listTour__bottom">
-                                <span class="listTour__details">Подробнее</span>
-                                <img src="./image/chooseTour/arrow.svg" alt="" class="ListTour__arrow">
-                            </div>
-                        </div>
-                    </span>
 
-                    <span class="listTour__img" style="background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),url(./image/chooseTour/cardTour_3.jpg)">
-                        <div class="listTour__text">
-                            <div class="listTour__title">Путешествие в горы</div>
-                            <div class="listTour__description">от 80 000 руб</div>
-                            <div class="listTour__bottom">
-                                <span class="listTour__details">Подробнее</span>
-                                <img src="./image/chooseTour/arrow.svg" alt="" class="ListTour__arrow">
+                        <span class="listTour__divImg"
+                         onmouseover="hoverOnCard()" onmouseout="hoverOffCard()">
+                            <img class="listTour__img" src="./image/chooseTour/cardTour_1.jpg" alt="image_tour1">
+                            <div class="listTour__text">
+                                <div class="listTour__title">Путешествие в горы</div>
+                                <div class="listTour__description">от 80 000 руб</div>
+                                <button id="hoverTour" class="listTour__bottom button">
+                                    <span class="listTour__bottomText">
+                                        <span class="listTour__details">Подробнее</span>
+                                        <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                    </span>
+                                </button>
                             </div>
-                        </div>
-                    </span>
+                        </span>
 
-                    <span class="listTour__img" style="background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(./image/chooseTour/cardTour_4.jpg)">
-                        <div class="listTour__text">
-                            <div class="listTour__title">Путешествие в горы</div>
-                            <div class="listTour__description">от 80 000 руб</div>
-                            <div class="listTour__bottom">
-                                <span class="listTour__details">Подробнее</span>
-                                <img src="./image/chooseTour/arrow.svg" alt="" class="ListTour__arrow">
+                        <span class="listTour__divImg"
+                         onmouseover="hoverOnCard2()" onmouseout="hoverOffCard2()">
+                            <img class="listTour__img" src="./image/chooseTour/cardTour_2.jpg" alt="image_tour2">
+                            <div class="listTour__text">
+                                <div class="listTour__title">Путешествие в горы</div>
+                                <div class="listTour__description">от 80 000 руб</div>
+                                <button id="hoverTour2" class="listTour__bottom button">
+                                    <span class="listTour__bottomText">
+                                        <span class="listTour__details">Подробнее</span>
+                                        <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                    </span>
+                                </button>
                             </div>
-                        </div>
-                    </span>
+                        </span>
 
-                    <span class="listTour__img" style="background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(./image/chooseTour/cardTour_5.jpg)">
-                        <div class="listTour__text">
-                            <div class="listTour__title">Путешествие в горы</div>
-                            <div class="listTour__description">от 80 000 руб</div>
-                            <div class="listTour__bottom">
-                                <span class="listTour__details">Подробнее</span>
-                                <img src="./image/chooseTour/arrow.svg" alt="" class="ListTour__arrow">
+                        <span class="listTour__divImg"
+                         onmouseover="hoverOnCard3()" onmouseout="hoverOffCard3()">
+                            <img class="listTour__img" src="./image/chooseTour/cardTour_3.jpg" alt="image_tour3">
+                            <div class="listTour__text">
+                                <div class="listTour__title">Путешествие в горы</div>
+                                <div class="listTour__description">от 80 000 руб</div>
+                                <button id="hoverTour3" class="listTour__bottom button">
+                                    <span class="listTour__bottomText">
+                                        <span class="listTour__details">Подробнее</span>
+                                        <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                    </span>
+                                </button>
                             </div>
-                        </div>
-                    </span>
+                        </span>
+                        
+                        <span class="listTour__divImg"
+                         onmouseover="hoverOnCard4()" onmouseout="hoverOffCard4()">
+                            <img class="listTour__img" src="./image/chooseTour/cardTour_4.jpg" alt="image_tour4">
+                            <div class="listTour__text">
+                                <div class="listTour__title">Путешествие в горы</div>
+                                <div class="listTour__description">от 80 000 руб</div>
+                                <button id="hoverTour4" class="listTour__bottom button">
+                                    <span class="listTour__bottomText">
+                                        <span class="listTour__details">Подробнее</span>
+                                        <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                    </span>
+                                </button>
+                            </div>
+                        </span>
+                       
 
-                    <span class="listTour__img" style="background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),url(./image/chooseTour/cardTour_6.jpg)">
-                        <div class="listTour__text">
-                            <div class="listTour__title">Путешествие в горы</div>
-                            <div class="listTour__description">от 80 000 руб</div>
-                            <div class="listTour__bottom">
-                                <span class="listTour__details">Подробнее</span>
-                                <img src="./image/chooseTour/arrow.svg" alt="" class="ListTour__arrow">
+                        <span class="listTour__divImg"
+                         onmouseover="hoverOnCard5()" onmouseout="hoverOffCard5()">
+                            <img class="listTour__img" src="./image/chooseTour/cardTour_5.jpg" alt="image_tour5">
+                            <div class="listTour__text">
+                                <div class="listTour__title">Путешествие в горы</div>
+                                <div class="listTour__description">от 80 000 руб</div>
+                                <button id="hoverTour5" class="listTour__bottom button">
+                                    <span class="listTour__bottomText">
+                                        <span class="listTour__details">Подробнее</span>
+                                        <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                    </span>
+                                </button>
                             </div>
-                        </div>
-                    </span>
+                        </span>
+
+                        <span class="listTour__divImg"
+                        onmouseover="hoverOnCard6()" onmouseout="hoverOffCard6()">
+                           <img class="listTour__img" src="./image/chooseTour/cardTour_6.jpg" alt="image_tour6">
+                           <div class="listTour__text">
+                               <div class="listTour__title">Путешествие в горы</div>
+                               <div class="listTour__description">от 80 000 руб</div>
+                               <button id="hoverTour6" class="listTour__bottom button">
+                                   <span class="listTour__bottomText">
+                                       <span class="listTour__details">Подробнее</span>
+                                       <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                   </span>
+                               </button>
+                           </div>
+                       </span>
 
                 </div>
             </div>

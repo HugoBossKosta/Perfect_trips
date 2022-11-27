@@ -48,28 +48,33 @@
     align-items: center;
     margin-bottom: 15vh;
 
-    &__img {
+    &__divImg {
         position: relative;
-        overflow: hidden;
         display: inline-block;
         width: 18vw;
         height: 27vh;
         min-height: 531px;
         min-width: 250px;
-        height: 531px;
+        margin-bottom: 2.5vh;
+        overflow: hidden;
+        border-radius: 60px;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: inline-block;
         background-size: cover;
         background-position: 55% 50%;
-        border-radius: 60px;
-        margin-bottom: 2.5vh;
         cursor: pointer;
     }
 
-    &__listTour__1:hover .listTour__img{
-        transform: scale(1.2);
-    }
-
     &__text {
+        position: absolute;
         padding: 4vh 2vw 4vh 2vw;
+        top: 0;
+        z-index: 3;
     }
 
     &__title {
@@ -89,29 +94,40 @@
         font-weight: 400;
 
     }
-    
-    &__arrow {
-       fill: white;
+
+    &__bottom {
+        background: transparent;
+        color: #FFFFFF;
+        border-radius: 50px;
+    }
+
+    &__bottomText {
+        padding: .3vh .6vw;
     }
 
     &__details {
         @include adaptiv-font(23,16);
         font-weight: 700;
         line-height: 122%;
-        color: #FFFFFF;
-        margin-right: 1vw;
+        margin-right: 0.5vw;
+    }
+
+    &__arrow {
+        padding-bottom: 0.5vh;
     }
 
 }
 
-.listTour .listTour__img:not(:last-child):not(:nth-child(3)) {
-    margin-right: 2vw;
+.listTour__bottom.activeTour {
+    background: #286562;
 }
 
-// .listTour .listTour__img:nth-child(3) {
-//     margin-right: 0vw;
-// }
+.listTour__divImg:hover .listTour__img {
+    transform: scale(1.2);
+    transition: all 300ms ease;
+}
 
-svg {
-    fill: white;
+
+.listTour .listTour__divImg:not(:last-child):not(:nth-child(3)) {
+    margin-right: 2vw;
 }
