@@ -23,5 +23,33 @@
         justify-content: space-between;
     }
 
+    &__li {
+        cursor: pointer;
+    }
+    &__li:active{
+      color: #EFA501;
+    }
+    &__li::selection{
+        color: #EFA501;
+      }
+
+    &__li::before {
+        content: '';
+        background-color: #1B1F2B;
+    }
+
+}
+
+.listTour {
+    display: inline-block;
+
+
+    &__img {
+        display: inline-block;
+        width: 370px;
+        height: 531px;
+        background-size: cover;
+        border-radius: 50px;
+    }
 
 }

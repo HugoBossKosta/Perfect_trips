@@ -34,6 +34,11 @@
     &__li {
         cursor: pointer;
     }
+    &__li::before {
+        content: '';
+        background-color: #fff;
+    }
+
     &__number{
         width: 12vw;
         text-align: end;
@@ -42,7 +47,14 @@
     &__a {
         color:  #FFFFFF;
     }
+    &__a::before {
+        content: '';
+        background-color: #fff;
+    }
 }
+
+
+
 
 //блок который пояаляется
 .header-block {

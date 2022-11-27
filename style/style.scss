@@ -1,6 +1,6 @@
 @import './header.scss';
 @import './underHeader.scss';
-// @import './chooseTour.scss';
+@import './chooseTour.scss';
 @import './mixin.scss';
 @import './links.scss';
 
@@ -15,21 +15,31 @@ a {
     --index: calc(1vw + 1vh);
 }
 
+.container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+
 body {
     position: relative;
     font-family: 'Roboto',"Arial", sans-serif;
     background-color: antiquewhite;
   }
 
-//   .container {
-//     padding-left: 20vw;
-//     padding-right: 20vw;
-//   }
 
 .text {
    @include adaptiv-font(20,16);
    line-height: 142%;
    font-weight: 400;
+}
+
+.text2{
+    white-space: nowrap;
+    @include adaptiv-font(23,16);
+    line-height: 122%;
+    font-weight: 700;
+    color: #1B1F2B;
 }
 
 .text-title {
@@ -39,12 +49,6 @@ body {
     font-weight: 700;
 }
 
-
-
-// .container {
-//   padding-left: 15vw;
-//   padding-right: 15vw;
-// }
 
 .button {
     transition: 0.2s;
@@ -60,6 +64,9 @@ body {
    
 }
 
+.active {
+    color: #EFA501;
+}
 
 
 
