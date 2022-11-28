@@ -15,7 +15,7 @@
 
     .underheader-block {
         &__title {
-            width: 40vw;
+            width: 60vw;
             padding-top: 8vh;
             margin-bottom: 5vh;
         }
@@ -119,8 +119,10 @@
         margin-bottom: 15vh;
 
         &__divImg {
-            min-height: 531px;
-            min-width: 450px;
+            width: 44vw;
+            height: 69.2vh;
+            // min-height: 531px;
+            // min-width: 450px;
             margin-bottom: 2.5vh;
         }
         &__text {
@@ -143,7 +145,7 @@
 
 
 @media screen and (max-width:360px) {
-// на 740px
+// на 640px
     .Vheader-block {
         &__nav {
             display: none;
@@ -228,8 +230,10 @@
     .listTour {
         margin-bottom: 15vh;
         &__divImg {
-            min-height: 318px;
-            min-width: 318px;
+            // min-height: 318px;
+            // min-width: 318px;
+            width: 89vw;
+            height: 50vh;
             margin-bottom: 1.5vh;
             border-radius: 20px;
         }
