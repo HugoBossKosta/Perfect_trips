@@ -1,0 +1,19 @@
+// Миксин для адаптации текста для ПК и ТЕЛЕФОНА
+// $maxWidth: 1280;
+$maxWidth: 1920;
+
+@mixin adaptiv-font-1920($pcSize, $mobSize) {
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize * 0.7;
+	@media (max-width: 1560px) {
+		font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 360px) / #{$maxWidth}));
+	}
+	@media (min-width: 1560px) {
+		font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+	}
+	@media (min-width: 1920px){
+		font-size: $pcSize + px;
+	}
+
+}
+

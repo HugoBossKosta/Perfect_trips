@@ -3,7 +3,8 @@
 @import './chooseTour.scss';
 @import './CollectTour.scss';
 
-@import './mixin.scss';
+@import './mixins/mixin1920.scss';
+@import './mixins/mixin1024.scss';
 @import './links.scss';
 
 @import './media.scss';
@@ -35,79 +36,94 @@ body {
   }
 
 
-.text {
-   @include adaptiv-font(20,16);
-   line-height: 142%;
-   font-weight: 400;
+h1 {
+    @include adaptiv-font-1920(96,34);
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    line-height: 109%;
+
+
+    @media screen and (max-width:1024px) {
+        @include adaptiv-font-1024(96,34);
+
+    }
+    @media screen and (max-width:360px) {
+        line-height: 112%;
+    }
 }
 
-.text2{
+h2 {
     white-space: nowrap;
-    @include adaptiv-font(23,16);
+    @include adaptiv-font-1920(59,34);
+    line-height: 124%;
+    font-weight: 700;
+    @media screen and (max-width:1024px) {
+        @include adaptiv-font-1024(59,34);
+    }
+    @media screen and (max-width:360px){
+        line-height: 112%;
+    }
+}
+
+h3 {
+    @include adaptiv-font-1920(35,23);
+        line-height: 122%;
+        font-weight: 500;
+    @media screen and (max-width:1024px) {
+        @include adaptiv-font-1024(35,23);
+    }
+    @media screen and (max-width:360px) {
+        line-height: 120%;
+        letter-spacing: 0.04em;
+        font-weight: 700;
+    }
+}
+
+.P-big {
+    white-space: nowrap;
+    @include adaptiv-font-1920(23,16);
     line-height: 122%;
     font-weight: 700;
     color: #1B1F2B;
 @media screen and (max-width:1024px) {
-    font-size: 23px;
+    @include adaptiv-font-1024(23,16);
 }
 @media screen and (max-width:360px) {
     line-height: 142%;
-    font-size: 16px;
 }
 }
 
-.text3{
-    @include adaptiv-font(20,16);
+.P-normal {
+    @include adaptiv-font-1920(20,16);
     line-height: 142%;
     font-weight: 400;
 @media screen and (max-width:1024px) {
-    font-size: 20px;
-}
-@media screen and (max-width:360px) {
-    font-size: 16px;
-    line-height: 142%;
+    @include adaptiv-font-1024(20,16);
 }
 }
 
+.P-small {
+    @include adaptiv-font-1920(17,16);
+    line-height: 142%;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    @media screen and (max-width:1024px) {
+        @include adaptiv-font-1024(17,16);
+    }
+}
+
 .textForm {
-    @include adaptiv-font(20,16);
     width: 10vw;
     background: #F9F7F4;
     border: 1px solid #F4F0E9;
     border-radius: 10px;
     padding: 20px;
-    font-weight: 400;
-    line-height: 142%;
     cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #1B1F2B;
-
     width: 90%;
-}
-
-
-
-.text-title {
-    white-space: nowrap;
-    @include adaptiv-font(59,34);
-    line-height: 109%;
-    font-weight: 700;
-    @media screen and (max-width:1024px) {
-        font-size: 59px;
-    }
-    @media screen and (max-width:360px){
-        font-size: 34px;
-        line-height: 112%;
-    }
-    @media screen and (max-width:1024px) {
-        font-size: 20px;
-    }
-    @media screen and (max-width:360px){
-        font-size: 16px;
-    }
-
 }
 
 
@@ -129,11 +145,6 @@ body {
     color: #EFA501;
 }
 
-
-
-// .select {
-//     width: 100%;
-// }
 
 select:hover {
     background: #F4F0E9;
