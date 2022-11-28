@@ -42,7 +42,6 @@ h1 {
     font-weight: 700;
     line-height: 109%;
 
-
     @media screen and (max-width:1024px) {
         @include adaptiv-font-1024(96,34);
 
