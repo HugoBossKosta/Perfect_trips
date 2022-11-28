@@ -208,7 +208,7 @@
                                 <div class="form__underInput">
                                     Имя
                                 </div>
-                                <input class="form__input input textForm P-normal" type="text" placeholder="Введите Ваше имя">
+                                <input required class="form__input input textForm P-normal" type="text" placeholder="Введите Ваше имя">
                             </div>
 
                             <div class="form__item">
@@ -236,32 +236,32 @@
                                 <div class="form__underInput">
                                     E-mail
                                 </div>
-                                <input class="form__input input textForm P-normal" type="text" placeholder="example@mail.com">
+                                <input required class="form__input input textForm P-normal" type="text" placeholder="example@mail.com">
                             </div>
 
                             <div class="form__item">
                                 <div class="form__underInput">
                                     Телефон
                                 </div>
-                                <input class="form__input input textForm P-normal" type="text" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" name="" data-phone-pattern="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" data-phone-clear = "false">
+                                <input required class="form__input input textForm P-normal" type="text" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" name="" data-phone-pattern="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" data-phone-clear = "false">
                             </div>
 
                             <div class="form__item">
                                 <div class="form__underInput">
                                     Дата от
                                 </div>
-                                <input class="form__input input textForm P-normal" type="date">
+                                <input required class="form__input input textForm P-normal" type="date">
                             </div>
 
                             <div class="form__item">
                                 <div class="form__underInput">
                                     Дата до
                                 </div>
-                                <input class="form__input input textForm P-normal" type="date">
+                                <input required class="form__input input textForm P-normal" type="date">
                             </div>
 
 
-                            <div class="textArea-item">
+                            <div class="form__textArea-item textArea-item">
                                 <div class="form__underInput">
                                     Комментарии
                                 </div>
@@ -269,16 +269,35 @@
                             </div>
                                 
                             <div class="ageCheck">
-                                <div class="form__underInput">
+                                <div class="form__underInput P-normal">
                                     Вам есть 18 лет?
                                 </div>
+                                <div class="ageCheck__inputDiv">
 
+                                    <span class="ageCheck__radioBlock">
+                                         <input required id="leftInputRadio" name="contactCheck" class="ageCheck__input input textForm P-normal" type="radio">
+                                        <label for="leftInputRadio" class="ageCheck__label P-normal">Да</label>
+                                    </span>
+                                       
+                                    <span class="ageCheck__radioBlock">
+                                        <input id="rightInputRadio" name="contactCheck" class="ageCheck__input input textForm P-normal" type="radio">
+                                        <label for="rightInputRadio" class="ageCheck__label P-normal">Нет</label>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="form__aceptBlock aceptBlock">
+                                <input required id="aceptBlockID" name="contactCheck" class="aceptBlock__input input textForm" type="checkbox">
+                                <label for="aceptBlockID" class="aceptBlock__label P-small">Нажимая кнопку, я принимаю условия<a href="" class="aceptBlock__a link-text P-small">Лицензионного договора</a></label>
 
                             </div>
 
+                            <div class="form__CollButtomBlock CollButtomBlock">
+                                <input class="CollButtomBlock__submit button2 P-normal" type="submit" value="Найти тур">
+                                <input class="CollButtomBlock__reset button2 P-normal" type="reset" value="Сбросить">
+                                
 
-
-                            <input class="resset" type="reset" value="Сбросить">
+                            </div>
 
 
 
