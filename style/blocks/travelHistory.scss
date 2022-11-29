@@ -1,0 +1,28 @@
+
+.travelHistory {
+
+&__top {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+&__title {
+    width: 80%;
+    text-align: center;
+}
+&__description {
+    width: 50%;
+    text-align: center;
+}
+
+}
+.ending {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13.5vh;
+}

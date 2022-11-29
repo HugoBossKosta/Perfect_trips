@@ -1,7 +1,11 @@
-@import './header.scss';
-@import './underHeader.scss';
-@import './chooseTour.scss';
-@import './CollectTour.scss';
+@import './blocks/header.scss';
+@import './blocks/underHeader.scss';
+@import './blocks//chooseTour.scss';
+@import './blocks/CollectTour.scss';
+@import './blocks/Feedback.scss';
+@import './blocks/travelPhotos.scss';
+@import './blocks/travelHistory.scss';
+@import './blocks/footer.scss';
 
 @import './mixins/mixin1920.scss';
 @import './mixins/mixin1024.scss';
@@ -32,7 +36,7 @@ a {
 body {
     position: relative;
     font-family: 'Roboto',"Arial", sans-serif;
-    background: #F4F0E9;
+    background: #F9F7f4;
   }
 
 
@@ -78,8 +82,9 @@ h3 {
     }
 }
 
-.P-big {
-    white-space: nowrap;
+.p-big {
+    // white-space: nowrap;
+    white-space: wrap;
     @include adaptiv-font-1920(23,16);
     line-height: 122%;
     font-weight: 700;
@@ -92,7 +97,7 @@ h3 {
 }
 }
 
-.P-normal {
+.p-normal {
     @include adaptiv-font-1920(20,16);
     line-height: 142%;
     font-weight: 400;
@@ -101,7 +106,7 @@ h3 {
 }
 }
 
-.P-small {
+.p-small {
     @include adaptiv-font-1920(17,16);
     line-height: 142%;
     letter-spacing: -0.01em;
