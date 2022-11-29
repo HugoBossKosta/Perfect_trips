@@ -1,7 +1,7 @@
 
 .travelHistory {
 
-margin-bottom: 13.5vh;
+margin-bottom: 10.5vh;
 &__top {
     display: flex;
     flex-flow: column;
@@ -13,9 +13,10 @@ margin-bottom: 13.5vh;
 &__title {
     width: 80%;
     text-align: center;
+    margin-bottom: 2.5vh;
 }
 &__description {
-    width: 50%;
+    width: 38%;
     text-align: center;
     color: #A6A6A6;
 }
@@ -24,7 +25,7 @@ margin-bottom: 13.5vh;
 
 .travelItemBlock {
     position: relative;
-    margin-bottom: 6vh;
+    margin-bottom: 4vh;
     overflow: hidden;
     border-radius: 40px;
 
@@ -46,7 +47,9 @@ margin-bottom: 13.5vh;
         justify-content: space-between;
         align-items: left;
         text-align: left;
-        padding: 4.2vh 2vw 4vh 2vw;
+        padding: 4vh 2vw 4vh 2vw;
+        margin-top: 1vh;
+        margin-left: 2vw;
         top: 0;
         z-index: 3;
         color: #FFFFFF;
@@ -59,7 +62,7 @@ margin-bottom: 13.5vh;
     }
 
     &__top {
-        margin-bottom: 19vh;
+        margin-bottom: 20.5vh;
         width: 50%;
     }
    
@@ -69,10 +72,10 @@ margin-bottom: 13.5vh;
 
     &__descriptionLi {
         position: relative;
-        padding-left:3vw;
+        padding-left:1vw;
     }
     &__descriptionLi:first-child {
-        margin-top: 4vh;
+        margin-top: 3vh;
     }
 
     &__descriptionLi::before {
@@ -121,7 +124,7 @@ margin-bottom: 13.5vh;
         text-align: right;
     }
     &__aNetwork {
-        margin-right: 1vw;
+        margin-right: 1.5vw;
     }
     &__aNetwork:first-child {
         padding-top: 7px;

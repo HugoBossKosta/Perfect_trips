@@ -13,7 +13,7 @@
 @import './links/linkText.scss';
 
 
-@import './media.scss';
+@import './media/media.scss';
 
 
 html {
@@ -64,7 +64,8 @@ h1 {
 }
 
 h2 {
-    white-space: nowrap;
+    text-align: center;
+    // white-space: nowrap;
     @include adaptiv-font-1920(59,34);
     line-height: 124%;
     font-weight: 700;
@@ -106,6 +107,7 @@ h3 {
 }
 
 .p-normal {
+    white-space: wrap;
     @include adaptiv-font-1920(20,16);
     line-height: 142%;
     font-weight: 400;
@@ -125,7 +127,7 @@ h3 {
 }
 
 .textForm {
-    width: 10vw;
+    // width: 10vw;
     background: #F9F7F4;
     border: 1px solid #F4F0E9;
     border-radius: 10px;
