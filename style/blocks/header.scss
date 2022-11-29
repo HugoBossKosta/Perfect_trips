@@ -3,7 +3,6 @@
 
 //блок который есть всегда
 .Vheader-block {
-    width: 100vw;
     position: absolute;
     top: 0;
     height: 90px;
@@ -15,14 +14,13 @@
 
     &__logo {
         width: 15vw;
-        padding-left: 19vw;
     }
     &__logo-img {
         width: 181px;
         height: 31px;
     }
     &__nav {
-        width: 25vw;
+        width: 35vw;
     }
     &__ul {
         display: flex;
@@ -41,9 +39,9 @@
     }
 
     &__number{
-        width: 12vw;
+        width: 15vw;
         text-align: end;
-        padding-right: 19vw;
+  
     }
     &__a {
         color:  #FFFFFF;
