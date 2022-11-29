@@ -24,24 +24,24 @@
         <!-- делаем 2 header для плавного появления -->
         
         <div class="Vheader-block">
+            <div class="container">
+                <div   div class="Vheader-block__logo">
+                    <a href="./index.html"><img class="Vheader-block__logo-img" src="./image/header/Logo.png" alt="logo"></a>
+                </div>
 
-            <div class="Vheader-block__logo">
-                <a href="./index.html"><img class="Vheader-block__logo-img" src="./image/header/Logo.png" alt="logo"></a>
+                <nav class="Vheader-block__nav">
+                    <ul class="Vheader-block__ul">
+                        <li class="Vheader-block__li link-text p-normal">Туры</li>
+                        <li class="Vheader-block__li link-text p-normal">Создать тур</li>
+                        <li class="Vheader-block__li link-text p-normal">Отзывы</li>
+                        <li class="Vheader-block__li link-text p-normal">Истории</li>
+                    </ul>
+                </nav>
+
+                <div class="Vheader-block__number">
+                    <a href="tel:+79999999999" class="Vheader-block__a link-text p-normal">+7 999 999 99 99</a>
+                </div>
             </div>
-
-            <nav class="Vheader-block__nav">
-                <ul class="Vheader-block__ul">
-                    <li class="Vheader-block__li link-text p-normal">Туры</li>
-                    <li class="Vheader-block__li link-text p-normal">Создать тур</li>
-                    <li class="Vheader-block__li link-text p-normal">Отзывы</li>
-                    <li class="Vheader-block__li link-text p-normal">Истории</li>
-                </ul>
-            </nav>
-
-            <div class="Vheader-block__number">
-                <a href="tel:+79999999999" class="Vheader-block__a link-text p-normal">+7 999 999 99 99</a>
-            </div>
-
         </div>
 
 
@@ -75,19 +75,20 @@
         </div>
 
 
-        <div class="chooseTour-block">
-            <div class="chooseTour-block__text">
-                <h2 class="chooseTour-block__title">Выбери свой тур</h2>
-                <ul class="chooseTour-block__ul list">
-                    <li class="chooseTour-block__li link-text p-big">Популярные</li>
-                    <li class="chooseTour-block__li link-text p-big">Авторские</li>
-                    <li class="chooseTour-block__li link-text p-big">Походы</li>
-                    <li class="chooseTour-block__li link-text p-big">Сплавы</li>
-                    <li class="chooseTour-block__li link-text p-big">Велопрогулки</li>
-                </ul>
-            </div>
-
+        <section class="chooseTour-block">
             <div class="container">
+                <div class="chooseTour-block__text">
+                    <h2 class="chooseTour-block__title">Выбери свой тур</h2>
+                    <ul class="chooseTour-block__ul list">
+                        <li class="chooseTour-block__li link-text p-big">Популярные</li>
+                        <li class="chooseTour-block__li link-text p-big">Авторские</li>
+                        <li class="chooseTour-block__li link-text p-big">Походы</li>
+                        <li class="chooseTour-block__li link-text p-big">Сплавы</li>
+                        <li class="chooseTour-block__li link-text p-big">Велопрогулки</li>
+                    </ul>
+                </div>
+            
+
                 <div class="chooseTour-block__imgs listTour">
 
                         <span class="listTour__divImg"
@@ -183,7 +184,7 @@
 
                 </div>
             </div>
-        </div>
+        </section>
 
         
 
@@ -373,14 +374,17 @@
 
 
         <section class="PhotosBlock">
+            <div class="PhotosBlock__container container">
+               
 
-            <div class="PhotosBlock__top">
-                <h2>Фотографии путешествий</h2>
-                <div class="PhotosBlock__description 
-                p-normal">
-                Идейные соображения высшего порядка, а также рамки и место обучения кадров
+                <div class="PhotosBlock__top">
+                    <h2 class="PhotosBlock__title">Фотографии путешествий</h2>
+                    <div class="PhotosBlock__description p-normal">
+                        Идейные соображения высшего порядка, а также рамки и место обучения кадров
+                    </div>
                 </div>
             </div>
+ 
 
 
             <div class="PhotosBlock__bottom">
@@ -401,7 +405,7 @@
 
                 </div>
 
-                <div class="PhotosBlock__line3">
+                <div class="PhotosBlock__line1">
                     <img src="./image/travelPhotos/travelPhotos_1_line3.png" alt="Photos_10" class="PhotosBlock__img1">
                     <img src="./image/travelPhotos/travelPhotos_2_line3.png" alt="Photos_11" class="PhotosBlock__img1">
                     <img src="./image/travelPhotos/travelPhotos_3_line3.png" alt="Photos_12" class="PhotosBlock__img1">
@@ -426,11 +430,11 @@
 
                 <div class="travelHistory__bottom">
 
-
-                    <div class="travelHistory__item travelItemBlock">
+                    <div class="travelHistory__item travelItemBlock"  onmouseover="hoverOnCard7()" onmouseout="hoverOffCard7()">
                         <img src="./image/travelHistory/TravelHistory_1.png" alt="img1" class="travelItemBlock__img">
+                        
                         <div class="travelItemBlock__text">
-                            <div class="travelItemBlock__top">
+                            <div class="travelItemBlock__top1">
                                 <h3 class="travelItemBlock__title">
                                     Автостопом в Стамбул
                                 </h3>
@@ -451,25 +455,25 @@
                             </div>
 
                             <div class="travelItemBlock__bottom">
-                                <div class="travelItemBlock__button">
-                                    <button id="hoverTour6" class="listTour__bottom button">
-                                        <span class="listTour__bottomText">
-                                            <span class="listTour__details p-big">Подробнее</span>
-                                            <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                <div id="hoverTour7" class="travelItemBlock__button">
+                                    <button id="hoverTour7" class="travelItemBlock__button button">
+                                        <span class="travelItemBlock__bottomText">
+                                            <span class="travelItemBlock__details p-big">Подробнее</span>
+                                            <img src="./image/chooseTour/arrow.svg" alt="" class="travelItemBlock__arrow">
                                         </span>
                                     </button>
                                 </div>
                                 <div class="travelItemBlock__networkBlock">
-                                    <img src="./image/travelHistory/instagram.svg" alt="inst" class="travelItemBlock__network">
-                                    <img src="./image/travelHistory/facebook.svg" alt="facebook" class="travelItemBlock__network">
-                                    <img src="./image/travelHistory/Youtube.svg" alt="Youtube" class="travelItemBlock__network">
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/instagram.svg" alt="inst" class="travelItemBlock__network"></a>
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/facebook.svg" alt="facebook" class="travelItemBlock__network"></a>
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/Youtube.svg" alt="Youtube" class="travelItemBlock__network"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="travelHistory__item travelItemBlock">
+                    <div class="travelHistory__item travelItemBlock" onmouseover="hoverOnCard8()" onmouseout="hoverOffCard8()">
                         <img src="./image/travelHistory/TravelHistory_2.png" alt="img1" class="travelItemBlock__img">
                         <div class="travelItemBlock__text">
                             <div class="travelItemBlock__top">
@@ -479,39 +483,29 @@
                                 <div class="travelItemBlock__description">
                                     <ul class="travelItemBlock__descriptionText p-normal">
                                         Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений:
-                                        <li class="travelItemBlock__descriptionLi p-normal">
-                                            вкусная еда
-                                        </li>
-                                        <li class="travelItemBlock__descriptionLi p-normal">
-                                            дешевый транспорт
-                                        </li>
-                                        <li class="travelItemBlock__descriptionLi p-normal">
-                                            красивый город.
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="travelItemBlock__bottom">
                                 <div class="travelItemBlock__button">
-                                    <button id="hoverTour6" class="listTour__bottom button">
-                                        <span class="listTour__bottomText">
-                                            <span class="listTour__details p-big">Подробнее</span>
-                                            <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
+                                    <button id="hoverTour8" class="travelItemBlock__button button">
+                                        <span class="travelItemBlock__bottomText">
+                                            <span class="travelItemBlock__details p-big">Подробнее</span>
+                                            <img src="./image/chooseTour/arrow.svg" alt="" class="travelItemBlock__arrow">
                                         </span>
                                     </button>
                                 </div>
                                 <div class="travelItemBlock__networkBlock">
-                                    <img src="./image/travelHistory/instagram.svg" alt="inst" class="travelItemBlock__network">
-                                    <img src="./image/travelHistory/facebook.svg" alt="facebook" class="travelItemBlock__network">
-                                    <img src="./image/travelHistory/Youtube.svg" alt="Youtube" class="travelItemBlock__network">
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/instagram.svg" alt="inst" class="travelItemBlock__network"></a>
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/ВКонтакте.svg" alt="Vk" class="travelItemBlock__network"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="travelHistory__item travelItemBlock">
+                    <div class="travelHistory__item travelItemBlock" onmouseover="hoverOnCard9()" onmouseout="hoverOffCard9()">
                         <img src="./image/travelHistory/TravelHistory_3.png" alt="img1" class="travelItemBlock__img">
                         <div class="travelItemBlock__text">
                             <div class="travelItemBlock__top">
@@ -521,57 +515,51 @@
                                 <div class="travelItemBlock__description">
                                     <ul class="travelItemBlock__descriptionText p-normal">
                                         Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений:
-                                        <li class="travelItemBlock__descriptionLi p-normal">
-                                            вкусная еда
-                                        </li>
-                                        <li class="travelItemBlock__descriptionLi p-normal">
-                                            дешевый транспорт
-                                        </li>
-                                        <li class="travelItemBlock__descriptionLi p-normal">
-                                            красивый город.
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="travelItemBlock__bottom">
                                 <div class="travelItemBlock__button">
-                                    <button id="hoverTour6" class="listTour__bottom button">
-                                        <span class="listTour__bottomText">
-                                            <span class="listTour__details p-big">Подробнее</span>
+                                    <button id="hoverTour9" class="travelItemBlock__button button">
+                                        <span class="travelItemBlock__bottomText">
+                                            <span class="travelItemBlock__details p-big">Подробнее</span>
                                             <img src="./image/chooseTour/arrow.svg" alt="" class="listTour__arrow">
                                         </span>
                                     </button>
                                 </div>
                                 <div class="travelItemBlock__networkBlock">
-                                    <img src="./image/travelHistory/instagram.svg" alt="inst" class="travelItemBlock__network">
-                                    <img src="./image/travelHistory/facebook.svg" alt="facebook" class="travelItemBlock__network">
-                                    <img src="./image/travelHistory/Youtube.svg" alt="Youtube" class="travelItemBlock__network">
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/instagram.svg" alt="inst" class="travelItemBlock__network"></a>
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/facebook.svg" alt="facebook" class="travelItemBlock__network"></a>
+                                    <a class="travelItemBlock__aNetwork" href=""><img src="./image/travelHistory/ВКонтакте.svg" alt="Vk" class="travelItemBlock__network"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-            <div class="ending">
-                <img src="./image/travelHistory/ending.png" alt="СТА" class="ending__left">
-                <div class="ending__right">
-                    <h3 class="ending__title">
-                        Пора в путешествие вместе с нами!
-                    </h3>
-                    <div class="ending__description 
-                    p-normal">
-                        Напиши на почту и узнай подробности на <a class="link-text p-normal" href="yourtour@gmail.com"> yourtour@gmail.com</a>
-                    </div>
-                </div>
-
-            </div>
         </section>
     </main>
+
+
+
+    <section class="ending">
+        <div class="container">
+            <div class="endingBlock">
+                <img src="./image/ending/ending.png" alt="СТА" class="endingBlock__left">
+                <div class="endingBlock__right">
+                    <h3 class="endingBlock__title">
+                        Пора в путешествие вместе с нами!
+                    </h3>
+                    <div class="endingBlock__description 
+                    p-normal">
+                        Напиши на почту и узнай подробности на <a class="endingBlock__a link-text p-normal" href="yourtour@gmail.com"> yourtour@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 
@@ -585,17 +573,17 @@
                 <div class="footerBlock__right">
                     <div class="footerBlock__blockNetwork">
                         <img src="./image/footer/Inst_img.svg" alt="inst_img" class="footerBlock__img">
-                        <img src="./image/footer/instagram.svg" alt="inst" class="footerBlock__network">
+                        <a href="" class="footerBlock__a"><img src="./image/footer/instagram.svg" alt="inst" class="footerBlock__network"></a>
                     </div>
 
                     <div class="footerBlock__blockNetwork">
                         <img src="./image/footer/facebook_img.svg" alt="facebook_img" class="footerBlock__img">
-                        <img src="./image/footer/facebook.svg" alt="facebook" class="footerBlock__network">
+                        <a href="" class="footerBlock__a"><img src="./image/footer/facebook.svg" alt="facebook" class="footerBlock__network"></a>
                     </div>
 
                     <div class="footerBlock__blockNetwork">
                         <img src="./image/footer/Vk_img.svg" alt="VK_img" class="footerBlock__img">
-                        <img src="./image/footer/vkontakte.svg" alt="VK" class="footerBlock__network">
+                        <a href="" class="footerBlock__a"><img src="./image/footer/vkontakte.svg" alt="VK" class="footerBlock__network"></a>
                     </div>
 
                 </div>

@@ -6,12 +6,20 @@
 @import './blocks/travelPhotos.scss';
 @import './blocks/travelHistory.scss';
 @import './blocks/footer.scss';
+@import './blocks/ending.scss';
 
 @import './mixins/mixin1920.scss';
 @import './mixins/mixin1024.scss';
-@import './links.scss';
+@import './links/linkText.scss';
+
 
 @import './media.scss';
+
+
+html {
+    width: 100%;
+     
+    }
 
 a {
     text-decoration: none;

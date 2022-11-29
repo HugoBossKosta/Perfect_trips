@@ -1,0 +1,41 @@
+.endingBlock {
+    // width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13.5vh;
+    padding: 0 12vw 0 12vw;
+
+    &__left {
+        width: 45%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    &__right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: 2vh;
+    }
+
+    &__description {
+        color: #A6A6A6;
+    }
+   
+    &__a {
+        color:  #1B1F2B;
+    }
+    &__a::before {
+        content: '';
+        background-color: #1B1F2B;
+    }
+    
+}

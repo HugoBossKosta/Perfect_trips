@@ -70,6 +70,17 @@ hoverOnCard5 = () => {
 hoverOnCard6 = () => {
     document.getElementById("hoverTour6").classList.add("activeTour");
 }
+//блокистория путешествий
+hoverOnCard7 = () => {
+    document.getElementById("hoverTour7").classList.add("activeTour");
+}
+hoverOnCard8 = () => {
+    document.getElementById("hoverTour8").classList.add("activeTour");
+}
+hoverOnCard9 = () => {
+    document.getElementById("hoverTour9").classList.add("activeTour");
+}
+
 
 
 hoverOffCard = () => {
@@ -90,6 +101,21 @@ hoverOffCard5 = () => {
 hoverOffCard6 = () => {
     document.getElementById("hoverTour6").classList.remove("activeTour");
 }
+//блок история путешествий
+hoverOffCard7 = () => {
+    document.getElementById("hoverTour7").classList.remove("activeTour");
+}
+hoverOffCard8 = () => {
+    document.getElementById("hoverTour8").classList.remove("activeTour");
+}
+hoverOffCard9 = () => {
+    document.getElementById("hoverTour9").classList.remove("activeTour");
+}
+
+
+
+
+
 
 
 // Делаем маску для подстановки номера телефона в инпуте(нашел в интернете)

@@ -6,14 +6,21 @@
     align-items: center;
     text-align: center;
     margin-bottom: 13.5vh;
-    &__top {
-        width: 60vw;
-        margin-bottom: 10vh;
-    }
-    &__description {
-        width: 40vw;
 
-    }
+        &__top {
+            width: 100%;
+            margin-bottom: 10vh;
+
+        }
+        &__description {
+            width: 60vw;
+            // padding: 0 auto 0 auto;
+            text-align: center;
+            color: #A6A6A6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
     &__bottom {
         padding: 0 3vw 0 3vw;
@@ -24,11 +31,30 @@
     }
 
     &__line1 {
+        width: 100%;
         margin-bottom: 3vh;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
     }
     &__line2 {
+        width: 100%;
         margin-bottom: 3vh;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
     }
 
+    &__img1 {
+        width: 21.5%;
+        height: 28vh;
+    }
+
+    &__img2 {
+        width: 17%;
+        height: 28vh;
+    }
 
 }
