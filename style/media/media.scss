@@ -12,6 +12,7 @@
     }
 
     .underheader-block {
+        height: 77vh;
         &__title {
             width: 60vw;
             padding-top: 8vh;
@@ -40,11 +41,6 @@
         }
     }
 
-
-
-
-
-    
 }
 
 
@@ -56,29 +52,29 @@
     .Vheader-block {
         &__logo {
             width: 18vw;
-            padding-left: 4.5vw;
+            padding-left: 1.5vw;
         }
         &__nav {
             width: 39vw;
-            padding-left: 6vw;
+            padding-left: 8vw;
         }
         &__number{
-            width: 20vw;
+            width: 23.5vw;
             padding-right: 4.5vw;
         }
     }
     .header-block {
         &__logo {
             width: 18vw;
-            padding-left: 4.5vw;
+            padding-left: 1.5vw;
         }
         &__nav {
-            width: 39vw;
-            padding-left: 6vw;
+            width: 45vw;
+            padding-left: 8vw;
         }
         &__number{
-            width: 20vw;
-            padding-right: 4.5vw;
+            width: 26.5vw;
+            padding-right: 2vw;
         }
     }
 
@@ -89,13 +85,13 @@
         background-size: 100% 100%;
         margin-bottom: 18vh;
         &__title {
-            width: 60vw;;
-            padding-top: 12vh;
+            width: 60vw;
+            padding-top: 13vh;
             margin-bottom: 5vh;
         }
         &__description {
-            width: 40vw;
-            margin-bottom: 6vh;
+            width: 42vw;
+            margin-bottom: 5vh;
             padding-top: 1vh;
         }
         &__button {
@@ -111,15 +107,14 @@
         &__title {
             width: 60vw;
             text-align: center;
-            margin-bottom: 5.5vh;
+            margin-bottom: 4.5vh;
         }
         &__ul {
             width:68.5vw;
         }
     }
-
     .listTour {
-        margin-bottom: 15vh;
+        margin-bottom: 14vh;
 
         &__divImg {
             width: 44vw;
@@ -139,7 +134,291 @@
         }
     }
 
+    .CollectTour {
+        margin-bottom: 7.5vh;
+        &__top {
+            margin-bottom: 15.5vh;
+        }
+        &__title {
+            margin-bottom: 4.5vh;
+        }
+        &__description {
+            width: 40vw;
+        }
+    }
+    .form {
+        border-radius: 50px;
+        padding: 5vh 6.5vw 5vh 6.5vw;
+        
+        &__item {
+            width: 48%;
+            margin-bottom: 4.3vh;
+        }
+        
+        &__underInput {
+            margin-bottom: 0.8vh;
+        }
+        
+        &__input {
+            width:100%;
+        }
+        
+        &__select {
+            width: 100% !important;
+        }
+        
+        &__textarea {
+            width: 100%; 
+
+        }
+        }
+    .textArea-item textarea {
+        height: 20vh;
+    }
+    .textArea-item {
+        margin-bottom: 4.5vh;
+    }
+    .ageCheck {
+        margin-bottom: 4vh;
+        &__radioBlock{
+            margin-right: 3.4vw;
+        }
+    }
+    .aceptBlock {
+        margin-bottom: 5vh;
+    }
+    .CollButtomBlock {
+        width: 66%;
+        height: 20vh;
+        &__submit {
+            width: 45%;
+            height: 40%;
+            margin-right: 2vw;
+            background: #286562;
+        }
+        &__submit:hover {
+            background: #3B7E7B;
+        }
+        &__submit:active {
+            background: #627F7E;
+        }
+    
+        &__reset {
+            width: 45%;
+            height: 40%;
+            background: #E0F0E5;
+        }
+        &__reset:hover {
+            background: #F1F3F2;
+        }
+        &__reset:active {
+            background: #D9DFDB;
+        }
+    
+    }
+
+    .Feedback {
+        margin-bottom: 13vh;
+        &__top {
+            margin-bottom: 13vh;
+        }
+        &__title {
+            width: 60%;
+            margin-bottom: 4vh;
+        }
+        &__description {
+            width: 50%;
+        }
+    }
+    .FeedbackBottom {
+        &__item {
+            width: 100%;
+            height: 100%;
+            padding: 5vh 2vw 5vh 2vw;
+            border-radius: 55px;
+            width: 39.5vw;
+            height: 104vh;
+        }
+        &__top {
+            width: 102%;
+            margin-bottom: 2.5vh;
+        }
+    
+        &__btndescription {
+            margin-bottom: 2vh;
+        }
+    }
+
+    .PhotosBlock {
+        margin-bottom: 14.1vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+            &__top {
+                margin-bottom: 13vh;
+            }
+            &__title {
+                margin-bottom: 4vh;
+            }
+            &__description {
+                width: 60%;
+            }
+            &__bottom {
+                padding: 0 3vw 0 3vw;
+            }
+        
+            &__line1 {
+                margin-bottom: 4vh;
+            }
+            &__line2 {
+                margin-bottom: 4vh;
+            }
+        
+            &__img1 {
+                width: 32%;
+                height: 39vh;
+            }
+        
+            &__img2 {
+                width: 23.5%;
+                height: 39vh;
+            }
+    
+    }
+
+    .travelHistory {
+        margin-bottom: 17.5vh;
+        &__top {
+            margin-bottom: 13vh;
+        }
+        
+        &__title {
+            margin-bottom: 3.5vh;
+        }
+        &__description {
+            width: 45%;
+        }
+
+        &__bottom {
+            padding-left: 1vw;
+            padding-right: 1vw;
+        }
+        } 
+    .travelItemBlock {
+        margin-bottom: 6.5vh;
+        border-radius: 40px;
+        height: 74vh;
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+        &__text {
+            padding: 4vh 2vw 4vh 2vw;
+            margin-top: 4vh;
+            margin-left: 4vw;
+        }
+    
+        &__top1 {
+            margin-bottom: 15vh;
+            width: 70%;
+        }
+    
+        &__top {
+            margin-bottom: 29.5vh;
+            width: 70%;
+        }
+        &__title {
+            margin-bottom: 4.5vh;
+        }
+    
+        &__descriptionLi {
+            position: relative;
+            padding-left:1vw;
+        }
+        &__descriptionLi:first-child {
+            margin-top: 3vh;
+        }
+    
+        &__descriptionLi::before {
+        color: #ffffff;
+        content:"\2022";
+        font-size: 26px;
+        font-weight: 700;
+        left: -20px;
+        line-height: 142%;    
+        position: absolute;
+        top: 0;
+        padding-left:2vw;
+        }
+        &__bottom {
+            margin-left: -1vw;
+            width: 100%;
+        }
+        &__button {
+            border-radius: 40px;
+        }
+        &__buttonText {
+            padding: .3vh .6vw;
+        }
+        &__details {
+            margin-right: 0.5vw;
+        }
+        &__arrow {
+            padding-bottom: 0.5vh;
+        }
+        &__networkBlock {
+            width: 45%;
+        }
+        &__aNetwork {
+            margin-right: 2.5vw;
+        }
+        &__aNetwork:first-child {
+            padding-top: 7px;
+        }
+        &__aNetwork:last-child {
+            padding-right: 0;
+        }
+    
+    }
+
+    .endingBlock {
+        margin-bottom: 17.5vh;
+        padding: 0px 8vw 0 8vw;
+    
+        &__left {
+            width: 48%;
+            height: 100%;
+        }
+    
+        &__right {
+            width: 50%;
+            height: 100%;
+            padding-left: 3vw;
+        }
+    
+        &__title {
+            margin-bottom: 2vh;
+        }
+        
+    }
+
+    .footerBlock {
+        width: 100%;
+        
+
+        &__right {
+            width: 44%;
+        }
+    
+        &__img {
+            margin-right: 0.5vw;
+        }
+         
+    }
+
 }
+
+
+
 
 
 
