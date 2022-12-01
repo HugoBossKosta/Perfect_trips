@@ -41,7 +41,8 @@
         flex-flow: column;
         display: inline-flex;
         width: 26.5vw;
-        height: 56vh;
+        // height: 56vh;
+        height: fit-content;
         // overflow:scroll;
 
     }

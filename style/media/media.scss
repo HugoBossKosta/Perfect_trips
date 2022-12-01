@@ -12,6 +12,7 @@
     }
 
     .underheader-block {
+        // height: fit-content;
         height: 77vh;
         &__title {
             width: 60vw;
@@ -38,6 +39,35 @@
         }
         &__description {
             padding-left: 1vw;
+        }
+    }
+
+    .form {
+        &__input {
+            display: inline-block;
+            width: 89% !important;
+        }
+    }
+    .Feedback {
+    margin-bottom: 13vh;
+    }
+    .FeedbackBottom {
+        &__top1 {
+            margin-bottom: 20.5vh;
+        }
+    }
+    .PhotosBlock {
+
+        margin-bottom: 11.3vh;
+    }
+    .travelItemBlock {
+        &__text {
+            margin-top: 1vh;
+        }
+    }
+    .endingBlock {
+        &__right {
+            margin-left: 1.5vw;
         }
     }
 
@@ -121,7 +151,7 @@
             margin-bottom: 2.5vh;
         }
         &__text {
-            padding: 6.5vh 0vw 4vh 3vw;
+            padding: 6vh 4vw 4vh 4vw;
         }
         &__title {
             width: 100%;
@@ -215,7 +245,7 @@
     }
 
     .Feedback {
-        margin-bottom: 17vh;
+        margin-bottom: 16vh;
         &__top {
             margin-bottom: 13vh;
         }
@@ -234,14 +264,17 @@
             padding: 5vh 4vw 5vh 4vw;
             border-radius: 55px;
             width: 36.5vw;
-            height: 100vh;
+            // height: 100vh;
+            height: fit-content;
             display: inline-flex;
         }
         &__top {
             width: 99%;
-            margin-bottom: 2.5vh;
+            margin-bottom: 5.5vh;
         }
-
+        &__top1 {
+            margin-bottom: 45.5vh;
+        }
     
         &__btndescription {
             margin-bottom: 2vh;
@@ -316,6 +349,7 @@
             padding: 4vh 2vw 4vh 2vw;
             margin-top: 4vh;
             margin-left: 4vw;
+            // height: fit-content;
         }
     
         &__top1 {
@@ -393,7 +427,7 @@
         &__right {
             width: 50%;
             height: 100%;
-            padding-left: 3vw;
+            padding-left: 1.5vw;
         }
     
         &__title {
@@ -407,9 +441,18 @@
         
 
         &__right {
-            width: 44%;
+            // width: 44%;
+            width: fit-content;
         }
-    
+        &__left {
+            padding-left: 0.5vw;
+        }
+        &__blockNetwork {
+            margin-right: 4vw;
+        }
+        &__blockNetwork:last-child {
+            margin-right: 0vw;
+        }
         &__img {
             margin-right: 0.5vw;
         }
@@ -566,7 +609,8 @@
     
     &__input {
         display: inline-block;
-        width:100%;
+        // width:100%;
+        width: 85% !important;
         height: 1vh;
     }
     
@@ -732,7 +776,7 @@
     }
 
     .PhotosBlock {
-        margin-bottom: 8.3vh;
+        margin-bottom: 9.2vh;
         padding-left: 2vw;
         padding-right: 2vw;
     
@@ -749,17 +793,23 @@
             }
     
         &__bottom {
-            width: 100%;
+            width: 92%;
             padding: 0 3vw 0 3vw;
+        }
+        &__line1 {
+            margin-bottom: 3vh;
+        }
+        &__line2 {
+            margin-bottom: 3vh;
         }
         &__img1 {
             width: 48%;
-            height: 18vh;
+            height: 19vh;
         }
     
         &__img2 {
             width: 32%;
-            height: 17vh;
+            height: 18vh;
         }
     
     }
@@ -775,7 +825,7 @@
         }
         &__title {
             width: 80%;
-            margin-bottom: 4vh;
+            margin-bottom: 3vh;
         }
         &__description {
             width: 100%;
@@ -900,7 +950,7 @@
         flex-flow: column;
         justify-content: center;
         align-items: space-between;
-        margin-bottom: 12.5vh;
+        margin-bottom: 13.5vh;
         padding: 0 11vw 0 11vw;
     
         &__left {
@@ -921,7 +971,7 @@
         }
     
         &__title {
-            margin-bottom: 3vh;
+            margin-bottom: 3.4vh;
         }
     
         &__description {
@@ -948,27 +998,34 @@
         
         &__left {
            color: #A6A6A6;
-           margin-bottom: 2vh;
+           margin-bottom: 1vh;
         }
         &__right {
-            width: 95%;
+            // width: 95%;
+            width: fit-content;
             display: flex;
             flex-flow: row;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 2vh;
         }
     
         &__img {
             margin-right: 0.5vw;
         }
 
+        // &__blockNetwork {
+        //     width: 33%;
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        // }
         &__blockNetwork {
-            width: 33%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            margin-right: 1vw;
         }
-
+        &__blockNetwork:last-child {
+            margin-right: 0vw;
+        }
 
 
     }
@@ -980,5 +1037,35 @@
 
 ////доп расширения для резиновой вёрстки
 
+// @media screen and (max-width:1450px) {
+//     .Vheader-block {
+//         &__logo {
+//             width: 13vw;
+//             padding-left: 0vw;
+//         }
+//         &__nav {
+//             width: 41vw;
+//             padding-left: 5vw;
+//         }
+//         &__number{
+//             width: 14.5vw;
+//             padding-right: 4.5vw;
+//         }
+//     }
+//     .header-block {
+//         &__logo {
+//             width: 14vw;
+//             padding-left: 0vw;
+//         }
+//         &__nav {
+//             width: 60vw;
+//             padding-left: 3vw;
+//         }
+//         &__number{
+//             width: 23.5vw;
+//             padding-right: 0vw;
+//         }
+//     }
 
+// }
 

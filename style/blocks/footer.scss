@@ -15,11 +15,18 @@
        color: #A6A6A6;
     }
     &__right {
-        width: 35%;
+        // width: 35%;
+        width: fit-content;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
         align-items: center;
+    }
+    &__blockNetwork {
+        margin-right: 2vw;
+    }
+    &__blockNetwork:last-child {
+        margin-right: 0vw;
     }
 
     &__img {
