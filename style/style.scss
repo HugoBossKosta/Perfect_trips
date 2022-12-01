@@ -137,7 +137,13 @@ h3 {
     flex-direction: row;
     align-items: center;
     color: #1B1F2B;
-    width: 90%;
+    width: 83%;
+    @media screen and (max-width:1024px){
+        width: 90%;
+    }
+    @media screen and (max-width:360px) {
+        width: 85%;
+    }
 }
 
 
