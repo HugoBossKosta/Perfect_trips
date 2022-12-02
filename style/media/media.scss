@@ -778,6 +778,203 @@
 
     }
 
+    .Feedback {
+        margin-bottom: 13.5vh;
+        &__top {
+            margin-bottom: 9vh;
+        }
+        &__title {
+            width: 95%;
+            margin-bottom: 3vh;
+        }
+        &__description {
+            width: 100%;
+            color: #A6A6A6;
+            text-align: center;
+        }
+    }
+    
+    .FeedbackBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-flow: column;
+    
+        &__item {
+            width: 92%;
+
+            padding: 3vh 3vw 3vh 3vw;
+            background: #F4F0E9;
+            border-radius: 20px;
+            height: 45.5vh;
+            // display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: space-between;
+            flex-flow: column;
+            display: inline-block;
+            // display: inline-flex;
+            // overflow:scroll;
+
+        }
+
+        &__item:nth-child(1) {
+            margin-bottom: 2vh;
+        }
+        &__item:nth-child(2) {
+            height: 55vh;
+        }
+    
+        &__top {
+            width: 92%;
+            margin-bottom: 2.5vh;
+            padding-left: 4vw;
+        }
+    
+        &__bottom {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            padding-top: 6.5vh;
+        }
+       
+    
+        &__btndescription {
+            margin-bottom: 2vh;
+        }
+    
+    
+    }
+
+    .travelHistory {
+
+        margin-bottom: 15vh;
+        &__top {
+            margin-bottom: 8vh;
+        }
+        &__title {
+            width: 80%;
+            margin-bottom: 3vh;
+        }
+        &__description {
+            width: 100%;
+        }
+        
+        }
+        
+    .travelItemBlock {
+        position: relative;
+        margin-bottom: 5vh;
+        overflow: hidden;
+        border-radius: 40px;
+    
+    
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+    
+    
+        &__text {
+            width: 149vw;
+            position: absolute;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            align-items: left;
+            text-align: left;
+            padding: 5vh 7vw 5vh 7vw;
+            margin-top: 1vh;
+            margin-left: 2vw;
+            top: 0;
+            z-index: 3;
+            color: #FFFFFF;
+        }
+    
+        &__top1 {
+            margin-bottom: 10vh;
+            width: 50%;
+    
+        }
+    
+        &__top {
+            margin-bottom: 24.5vh;
+            width: 50%;
+        }
+        
+        &__title {
+            width: 60%;
+            margin-bottom: 3.5vh;
+        }
+    
+        &__descriptionLi {
+            position: relative;
+            padding-left:1vw;
+        }
+        &__descriptionLi:first-child {
+            margin-top: 3vh;
+        }
+    
+        &__descriptionLi::before {
+        color: #ffffff;
+        content:"\2022";
+        font-size: 26px;
+        font-weight: 700;
+        left: -20px;
+        line-height: 142%;    
+        position: absolute;
+        top: 0;
+        padding-left:2vw;
+        }
+        
+        &__bottom {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+    
+    
+        &__button {
+            background: transparent;
+            color: #FFFFFF;
+            border-radius: 40px;
+        }
+    
+        &__buttonText {
+            padding: .3vh .6vw;
+        }
+    
+        &__details {
+            color:#FFFFFF !important;
+            margin-right: 0.5vw;
+        }
+    
+        &__arrow {
+            padding-bottom: 0.5vh;
+        }
+    
+    
+        &__networkBlock {
+            width: 35%;
+            text-align: right;
+        }
+        &__aNetwork {
+            margin-right: 1.5vw;
+        }
+        &__aNetwork:first-child {
+            padding-top: 7px;
+        }
+
+
+    
+
+    
+    }
 
 
 
