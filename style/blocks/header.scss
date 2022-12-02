@@ -17,6 +17,7 @@
         padding-left: 0.5vw;
     }
     &__logo-img {
+        fill: black;
         width: 181px;
         height: 31px;
     }
@@ -105,9 +106,12 @@
         padding-right: -0.5vw;
     }
     &__a {
-        color:  #FFFFFF;
+        color: #1B1F2B;;
     }
-
+    &__a::before {
+        content: '';
+        background-color: #1B1F2B;
+    }
     &__hidden {
         transform: translateY(-100%);
       }

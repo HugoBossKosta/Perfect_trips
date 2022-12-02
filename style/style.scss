@@ -49,14 +49,15 @@ body {
 
 
 h1 {
-    @include adaptiv-font-1920(96,34);
+    // @include adaptiv-font-1920(96,34);
+    font-size: 96px;
     letter-spacing: 0.02em;
     font-weight: 700;
     line-height: 109%;
 
     @media screen and (max-width:1024px) {
         @include adaptiv-font-1024(96,34);
-
+        
     }
     @media screen and (max-width:360px) {
         line-height: 112%;
@@ -66,7 +67,8 @@ h1 {
 h2 {
     text-align: center;
     // white-space: nowrap;
-    @include adaptiv-font-1920(59,34);
+    // @include adaptiv-font-1920(59,34);
+    font-size: 59px;
     line-height: 124%;
     font-weight: 700;
     @media screen and (max-width:1024px) {
@@ -78,7 +80,8 @@ h2 {
 }
 
 h3 {
-    @include adaptiv-font-1920(35,23);
+    // @include adaptiv-font-1920(35,23);
+    font-size: 35px;
         line-height: 122%;
         font-weight: 500;
     @media screen and (max-width:1024px) {
@@ -94,7 +97,8 @@ h3 {
 .p-big {
     // white-space: nowrap;
     white-space: wrap;
-    @include adaptiv-font-1920(23,16);
+    // @include adaptiv-font-1920(23,16);
+    font-size: 23px;
     line-height: 122%;
     font-weight: 700;
     color: #1B1F2B;
@@ -108,7 +112,8 @@ h3 {
 
 .p-normal {
     white-space: wrap;
-    @include adaptiv-font-1920(20,16);
+    // @include adaptiv-font-1920(20,16);
+    font-size: 20px;
     line-height: 142%;
     font-weight: 400;
 @media screen and (max-width:1024px) {
@@ -117,7 +122,7 @@ h3 {
 }
 
 .p-small {
-    @include adaptiv-font-1920(17,16);
+   font-size: 17px;
     line-height: 142%;
     letter-spacing: -0.01em;
     font-weight: 400;

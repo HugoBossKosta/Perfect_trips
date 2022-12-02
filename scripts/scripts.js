@@ -115,9 +115,6 @@ hoverOffCard9 = () => {
 
 
 
-
-
-
 // Делаем маску для подстановки номера телефона в инпуте(нашел в интернете)
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -148,10 +145,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
-
-
-
-
 
 
 
