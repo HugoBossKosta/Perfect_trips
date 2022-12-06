@@ -12,20 +12,20 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const onScrollHeader = () => {
 
-        const header = document.querySelector('.header-block');
+        const header = document.querySelector('.header-blockActive');
         let prevScroll = window.pageYOffset;
         let currentScroll;
 
         window.onload = () => {
-            header.classList.add('header-block__hidden');
+            header.classList.add('header-blockActive__hidden');
         }
         window.addEventListener('scroll', () => { 
             currentScroll = window.pageYOffset;
 
 
-            if (window.scrollY > 450) {
+            if (window.scrollY < 450) {
 
-                header.classList.remove('header-block__hidden');
+                header.classList.remove('header-blockActive__hidden');
                 
                 // если нужно сделать, чтобы скролл убирался динамически при измении колеса мыши
 
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // prevScroll = currentScroll;
             }
             else {
-                header.classList.add('header-block__hidden');
+                header.classList.add('header-blockActive__hidden');
             }
         });
     }

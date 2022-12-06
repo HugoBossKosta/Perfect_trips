@@ -3,6 +3,7 @@
 
 //блок который есть всегда
 .Vheader-block {
+    width: inherit;
     position: absolute;
     top: 0;
     height: 90px;
@@ -13,17 +14,16 @@
     z-index: 5;
 
     &__logo {
-        width: 18.5vw;
-        padding-left: 0.5vw;
+        width: 15vw;
     }
     &__logo-img {
         fill: black;
-        width: 181px;
-        height: 31px;
+        width: 100%;
+        max-width: 181px;
+        max-height: 31px;
     }
     &__nav {
-        width: 24.5vw;
-        padding-left: 0.5vw;
+        width: 34vw;
     }
     &__ul {
         display: flex;
@@ -42,7 +42,7 @@
     }
 
     &__number{
-        width: 17vw;
+        width: 10vw;
         text-align: end;
   
     }
@@ -58,36 +58,54 @@
 
 
 
-//блок который пояаляется
-.header-block {
+//блок который появляется
+.header-blockActive {
     width: 100%;
+    background: rgba(243, 239, 232, 0.6);
+    height: 90px;
+    position: fixed;
+    backdrop-filter: blur(27px);
+    transition: 1s;
+    &__hidden {
+        transform: translateY(-100%);
+      }
+}
+
+.header-block {
+    width: inherit;
+    // width: 62%;
+    opacity: 0.8;
     position: fixed;
     top: 0;
     height: 90px;
-    transition: 1s;
-    background: rgba(243, 239, 232, 0.6);
-    backdrop-filter: blur(27px);
+
+   
     z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row;
+    
 
-    &__container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-flow: row;
-        height: 100%;
+    // &__container {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: space-between;
+    //     flex-flow: row;
+    //     height: 100%;
+    // }
 
-
-    }
     &__logo {
-        width: 20%;
-        padding-left: 0.5vw;
+        width: 15vw;
+        
     }
     &__logo-img {
-        width: 181px;
-        height: 31px;
+        width: 100%;
+        max-width: 181px;
+        max-height: 31px;
     }
     &__nav {
-        width: 25%;
+        width: 34vw;
     }
     &__ul {
         display: flex;
@@ -101,9 +119,9 @@
         cursor: pointer;
     }
     &__number{
-        width: 12vw;
+        width: 10vw;
         text-align: end;
-        padding-right: -0.5vw;
+        
     }
     &__a {
         color: #1B1F2B;;
@@ -112,9 +130,9 @@
         content: '';
         background-color: #1B1F2B;
     }
-    &__hidden {
-        transform: translateY(-100%);
-      }
+    // &__hidden {
+    //     transform: translateY(-100%);
+    //   }
 
 }
 
