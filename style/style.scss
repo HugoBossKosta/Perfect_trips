@@ -191,6 +191,9 @@ select:invalid {
 input::placeholder {
     color: #A6A6A6;
 }
+input:invalid {
+    color: #A6A6A6; 
+}
 input:hover {
     background: #F4F0E9;
 }
