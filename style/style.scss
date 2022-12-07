@@ -47,6 +47,7 @@ body {
     position: relative;
     font-family: 'Roboto',"Arial", sans-serif;
     background: #F9F7f4;
+    overflow-x: hidden;
   }
 
 
@@ -144,13 +145,16 @@ h3 {
     flex-direction: row;
     align-items: center;
     color: #1B1F2B;
-    width: 91%;
-    @media screen and (max-width:1024px){
-        width: 90%;
+    @media screen and (max-width:1920px) {
+        padding: 18px;
     }
-    @media screen and (max-width:360px) {
-        width: 85%;
-    }
+    // width: 70%;
+    // // @media screen and (max-width:1024px){
+    // //     width: 90%;
+    // // }
+    // // @media screen and (max-width:360px) {
+    // //     width: 85%;
+    // // }
 }
 
 
