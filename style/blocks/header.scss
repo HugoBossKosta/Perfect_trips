@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     flex-flow: row;
-    z-index: 5;
+    z-index: 7;
 
     &__logo {
         width: 15vw;
@@ -74,13 +74,12 @@
 .header-block {
     width: inherit;
     // width: 62%;
-    opacity: 0.8;
-    position: fixed;
+    opacity: 1;
     top: 0;
     height: 90px;
 
    
-    z-index: 5;
+    z-index: 7;
     display: flex;
     align-items: center;
     justify-content: space-between;
