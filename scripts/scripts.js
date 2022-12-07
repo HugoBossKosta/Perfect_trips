@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentScroll = window.pageYOffset;
 
 
-            if (window.scrollY < 450) {
+            if (window.scrollY > 450) {
 
                 header.classList.remove('header-blockActive__hidden');
                 
