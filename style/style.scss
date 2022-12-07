@@ -37,6 +37,7 @@ a {
   }
   @media screen and (max-width:1024px) {
     .container {
+        width: 91vw;
         padding-left: 4.5vw;
         padding-right: 4.5vw;
       }
@@ -198,7 +199,22 @@ input:invalid {
 input:hover {
     background: #F4F0E9;
 }
+//красим raio в черный
 
+
+
+//кастомизируем checkbox
+
+// .checkbox input[type="checkbox"] {
+//     opacity: 0;
+// }
+
+//убираем календарь
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
 textarea:hover {
     background: #F4F0E9;
 }
+
+
