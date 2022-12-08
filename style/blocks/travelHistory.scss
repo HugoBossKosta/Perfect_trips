@@ -1,7 +1,7 @@
 
 .travelHistory {
 
-margin-bottom: 10.5vh;
+    margin-bottom: 13.5vh;
 &__top {
     display: flex;
     flex-flow: column;
@@ -25,17 +25,17 @@ margin-bottom: 10.5vh;
 
 .travelItemBlock {
     position: relative;
-    margin-bottom: 4vh;
+    margin-bottom: 5vh;
     overflow: hidden;
-    border-radius: 40px;
-    // height: fit-content;
+    border-radius: 50px;
+
+    height: 52vh;
 
 
 
     &__imgBack {
         display: block;
         width: 100%;
-        // height: fit-content;
         height: 100%;
         background-size: cover;
         background-position: 0% 80%;
@@ -60,37 +60,34 @@ margin-bottom: 10.5vh;
     }   
 
     &__text {
-        // position: absolute;
-        height: inherit;
+        // height: inherit;
+        height: 80%;
         position: relative;
         display: flex;
         flex-flow: column;
         justify-content: space-between;
         align-items: space-between;
         text-align: left;
-        padding: 4vh 2vw 4vh 2vw;
-        margin-top: 1vh;
-        margin-left: 2vw;
-        top: 0;
+        padding: 5vh 2.5vw 0vh 4vw;
+        // margin-top: 1vh;
+        // margin-left: 2vw;
         z-index: 5;
         color: #FFFFFF;
     }
 
-    &__top1 {
-        // margin-bottom: 10vh;
-        width: 50%;
-
-    }
-
     &__top {
-        // margin-bottom: 20.5vh;
-        width: 50%;
+        width: 55%;
+    }
+    &__top2 {
+        width: 55%;
     }
    
     &__title {
         margin-bottom: 3.5vh;
     }
-
+    // &__descriptionText {
+    //     width: 120%;
+    // }
     &__descriptionLi {
         position: relative;
         padding-left:1vw;

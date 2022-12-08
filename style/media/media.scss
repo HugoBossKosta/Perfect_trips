@@ -113,6 +113,17 @@
 
         &__item {
             min-height: 57vh;
+            width: 25vw;
+            padding: 2.5vh 2.9vw 1.5vh 2.5vw;
+        }
+        &__bottom {
+            padding-bottom: 1vh;
+        }
+        &__btTitle {
+            margin-bottom: 1vh;
+        }
+        &__btndescription {
+            margin-bottom: 1vh;
         }
     }
     .PhotosBlock {
@@ -129,16 +140,6 @@
         }
         &__line1 {
             margin-bottom: 3vh;
-        }
-    }
-    .travelHistory {
-        margin-bottom: 12.5vh;
-    }
-    .travelItemBlock {
-        margin-bottom: 6vh;
-        &__text {
-            padding: 4vh 2vw 5vh 2vw;
-            margin-top: 1vh;
         }
     }
 
@@ -323,6 +324,7 @@
         }
         &__title {
             width: 100%;
+            margin-bottom: 2vh;
         }
     }
 
@@ -411,60 +413,34 @@
         }
     
     }
-        .Feedback {
-        margin-bottom: 12.5vh;
-    &__title {
-        width: 60%;
-    }
-    &__description {
-        width: 35%;
-    }
+    .Feedback {
+        margin-bottom: 18.5vh;
+        &__title {
+            margin-bottom: 4vh;
+            width: 60%;
+        }
+        &__description {
+            width: 45%;
+        }
+        &__top {
+            margin-bottom: 13vh;
+        }
     }
     .FeedbackBottom {
         &__top {
-            width: 101%;
+            width: 90%;
         }
 
         &__item {
-            min-height: 57vh;
+            min-height: 101vh;
+            width: 40vw;
+            padding: 5vh 0.5vw 2vh 4.5vw;
+        }
+        &__bottom {
+            width: 90%;
         }
     }
-    // .Feedback {
-    //     margin-bottom: 18vh;
-    //     &__top {
-    //         margin-bottom: 13vh;
-    //     }
-    //     &__title {
-    //         width: 60%;
-    //         margin-bottom: 4vh;
-    //     }
-    //     &__description {
-    //         width: 50%;
-    //     }
-    // }
-    // .FeedbackBottom {
-    //     &__item {
-    //         width: 39.5vw;
-    //         height: 100%;
-            
-    //         padding: 5vh 0.5vw 3vh 4.5vw;
-    //         border-radius: 55px;
-          
-    //         min-height: 101vh;
-    //     }
-    //     &__top {
-    //         width: 91%;
-    //     }
-    //     &__bottom {
-    //         width: 93%;
-    //         padding-bottom: 1vh;
-    //     }
 
-    
-    //     &__btndescription {
-    //         margin-bottom: 2vh;
-    //     }
-    // }
 
     .PhotosBlock {
         margin-bottom: 14.1vh;
@@ -498,6 +474,7 @@
             &__img2 {
                 width: 23.5%;
                 height: 39vh;
+
             }
     
     }
@@ -505,101 +482,63 @@
         display: none;
     }
     .travelHistory {
-        margin-bottom: 17.5vh;
+        margin-bottom: 18.5vh;
         &__top {
             margin-bottom: 13vh;
         }
         
         &__title {
-            margin-bottom: 3.5vh;
-        }
-        &__description {
-            width: 45%;
-        }
-
-        &__bottom {
-            padding-left: 1vw;
-            padding-right: 1vw;
-        }
-        } 
-    .travelItemBlock {
-        margin-bottom: 6.5vh;
-        border-radius: 40px;
-        height: 74vh;
-
-        &__imgBack {
-            width: 104%;
-            background-position: 77% 30%;
-        }
-
-        &__text {
-            padding: 4vh 2vw 4vh 2vw;
-            margin-top: 4vh;
-            margin-left: 4vw;
-            // height: fit-content;
-        }
-        
-        &__top1 {
-            // margin-bottom: 15vh;
-            width: 70%;
-        }
-    
-        &__top {
-            // margin-bottom: 29.5vh;
-            width: 70%;
-        }
-        &__title {
+            width: 80%;
             margin-bottom: 4.5vh;
         }
+        &__description {
+            width: 50%;
+        }
+    }
     
-        &__descriptionLi {
-            position: relative;
-            padding-left:1vw;
-        }
-        &__descriptionLi:first-child {
-            margin-top: 3vh;
-        }
+    .travelItemBlock {
+        border-radius: 50px;
+        margin-bottom: 7vh;
+        height: 73vh;
     
-        &__descriptionLi::before {
-        color: #ffffff;
-        content:"\2022";
-        font-size: 26px;
-        font-weight: 700;
-        left: -20px;
-        line-height: 142%;    
-        position: absolute;
-        top: 0;
-        padding-left:2vw;
-        }
-        &__bottom {
-            margin-left: -1vw;
-            width: 100%;
-        }
-        &__button {
-            border-radius: 40px;
-        }
-        &__buttonText {
-            padding: .3vh .6vw;
-        }
-        &__details {
-            margin-right: 0.5vw;
-        }
-        &__arrow {
-            padding-bottom: 0.5vh;
-        }
         &__networkBlock {
             width: 45%;
         }
+        &__text {
+            height: 80%;
+            padding: 7vh 3.5vw 0vh 7vw;
+        }
         &__aNetwork {
-            margin-right: 2.5vw;
+            margin-right: 3vw;
         }
-        &__aNetwork:first-child {
-            padding-top: 7px;
+        &__title {
+            margin-bottom: 5vh;
         }
-        &__aNetwork:last-child {
-            padding-right: 0;
+        &__descriptionText {
+            width: 120%;
         }
-    
+        &__descriptionLi::before {
+            font-size: 20px;
+            margin-left: -1.5vw;
+        }
+        &__descriptionLi:first-child {
+            margin-top: 3.5vh;
+        }
+        &__descriptionLi {
+            padding-left:2vw;
+        }
+        &__imgBack {
+            display: block;
+            // width: 100%;
+            // height: 100%;
+            background-size: 100% 100%;
+            background-position: 0% 80%;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            position: absolute;
+        }
+
+
     }
 
     .endingBlock {
@@ -1306,47 +1245,104 @@
             margin-right: 3vw;
         }
     }
-    
     .Feedback {
-        margin-bottom: 12.5vh;
-    &__title {
-        width: 95%;
-    }
-    &__description {
-        width: 100%;
-    }
-    &__top {
-        margin-bottom: 9vh;
-    }
+        margin-bottom: 11.5vh;
+        &__title {
+            margin-bottom: 3.5vh;
+            width: 100%;
+        }
+        &__description {
+            width: 100%;
+        }
+        &__top {
+            margin-bottom: 7vh;
+        }
     }
     .FeedbackBottom {
         flex-flow: column;
+        align-items: center;
         &__top {
-            width: 90%;
+            width: 92%;
         }
 
         &__item {
-            width: 91%;
-            min-height: 57vh;
-            padding: 3vh 2.5vw 3vh 6.5vw;
-            border-radius: 25px;
+            min-height: 58vh;
+            width: 82vw;
+            padding: 4vh 0.5vw 2vh 4.5vw;
+            border-radius: 20px;
         }
         &__item1 {
-            margin-bottom: 3vh;
-        }
-        &__bottom {
-            padding-right: 5vw;
-        }
-        &__bottomLeft {
-            padding-top: 3vh;
-        }
-        &__btTitle {
             margin-bottom: 2vh;
         }
-        &__btndescription {
-            margin-bottom: 0vh;
+        &__item2 {
+            min-height: 88vh;
+        }
+        &__bottom {
+            width: 94%;
+            padding-bottom: 0vh;
         }
     }
+    .travelHistory {
+        margin-bottom: 18.5vh;
+        &__top {
+            margin-bottom: 13vh;
+        }
+        
+        &__title {
+            width: 80%;
+            margin-bottom: 3vh;
+        }
+        &__description {
+            width: 100%;
+        }
+    }
+    
+    .travelItemBlock {
+        border-radius: 50px;
+        margin-bottom: 7vh;
+        height: 73vh;
+    
+        &__networkBlock {
+            width: 45%;
+        }
+        &__text {
+            height: 80%;
+            padding: 7vh 3.5vw 0vh 7vw;
+        }
+        &__aNetwork {
+            margin-right: 3vw;
+        }
+        &__title {
+            margin-bottom: 5vh;
+        }
+        &__descriptionText {
+            width: 120%;
+        }
+        &__descriptionLi::before {
+            font-size: 20px;
+            margin-left: -1.5vw;
+        }
+        &__descriptionLi:first-child {
+            margin-top: 3.5vh;
+        }
+        &__descriptionLi {
+            padding-left:2vw;
+        }
+        &__imgBack {
+            display: block;
+            // width: 100%;
+            // height: 100%;
+            background-size: 100% 100%;
+            background-position: 0% 80%;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            position: absolute;
+        }
+
+
+    }
+
+    
     
     .PhotosBlock {
         margin-bottom: 9.2vh;
@@ -1389,228 +1385,6 @@
     #hide360 {
         display: none;
     }
-    .travelHistory {
-        margin-bottom: 17.5vh;
-        &__top {
-            margin-bottom: 7vh;
-        }
-        
-        &__title {
-            margin-bottom: 3.5vh;
-        }
-        &__description {
-            width: 100%;
-        }
-
-        &__bottom {
-            padding-left: 1vw;
-            padding-right: 1vw;
-        }
-        } 
-    .travelItemBlock {
-        margin-bottom: 6.5vh;
-        border-radius: 30px;
-        height: 72vh;
-
-        &__imgBack {
-            width: 104%;
-            background-position: 77% 30%;
-        }
-
-        &__text {
-            padding: 4vh 2vw 4vh 2vw;
-            margin-top: 0vh;
-            margin-left: 0vw;
-            // height: fit-content;
-        }
-        
-        &__top1 {
-            width: 87%;
-        }
-    
-        // &__top {
-        //     margin-bottom: 29.5vh;
-        //     width: 70%;
-        // }
-        &__title {
-            margin-bottom: 4.5vh;
-        }
-    
-        &__descriptionLi {
-            position: relative;
-            padding-left:1vw;
-        }
-        &__descriptionLi:first-child {
-            margin-top: 3vh;
-        }
-    
-        &__descriptionLi::before {
-        color: #ffffff;
-        content:"\2022";
-        font-size: 26px;
-        font-weight: 700;
-        left: -20px;
-        line-height: 142%;    
-        position: absolute;
-        top: 0;
-        padding-left:2vw;
-        }
-        &__bottom {
-            padding-bottom: 7vh;
-            width: 100%;
-        }
-        &__button {
-            border-radius: 40px;
-        }
-        &__buttonText {
-            padding: .3vh .6vw;
-        }
-        &__details {
-            margin-right: 0.5vw;
-        }
-        &__arrow {
-            padding-bottom: 0.5vh;
-        }
-        &__networkBlock {
-            width: 45%;
-        }
-        &__aNetwork {
-            margin-right: 2.5vw;
-        }
-        &__aNetwork:first-child {
-            padding-top: 7px;
-        }
-        &__aNetwork:last-child {
-            padding-right: 0;
-        }
-    
-    }
-    // .travelHistory {
-
-    //     margin-bottom: 15vh;
-    //     &__top {
-    //         margin-bottom: 8vh;
-    //     }
-    //     &__title {
-    //         width: 80%;
-    //         margin-bottom: 3vh;
-    //     }
-    //     &__description {
-    //         width: 100%;
-    //     }
-        
-    //     }
-        
-    // .travelItemBlock {
-    //     position: relative;
-    //     margin-bottom: 5vh;
-    //     overflow: hidden;
-    //     border-radius: 40px;
-    
-    
-    //     &__img {
-    //         width: 100%;
-    //         height: 100%;
-    //     }
-    
-    
-    //     &__text {
-    //         width: 149vw;
-    //         position: absolute;
-    //         display: flex;
-    //         flex-flow: column;
-    //         justify-content: space-between;
-    //         align-items: left;
-    //         text-align: left;
-    //         padding: 5vh 7vw 5vh 7vw;
-    //         margin-top: 1vh;
-    //         margin-left: 2vw;
-    //         top: 0;
-    //         z-index: 3;
-    //         color: #FFFFFF;
-    //     }
-    
-    //     &__top1 {
-    //         margin-bottom: 10vh;
-    //         width: 50%;
-    
-    //     }
-    
-    //     &__top {
-    //         margin-bottom: 24.5vh;
-    //         width: 50%;
-    //     }
-        
-    //     &__title {
-    //         width: 60%;
-    //         margin-bottom: 3.5vh;
-    //     }
-    
-    //     &__descriptionLi {
-    //         position: relative;
-    //         padding-left:1vw;
-    //     }
-    //     &__descriptionLi:first-child {
-    //         margin-top: 3vh;
-    //     }
-    
-    //     &__descriptionLi::before {
-    //     color: #ffffff;
-    //     content:"\2022";
-    //     font-size: 26px;
-    //     font-weight: 700;
-    //     left: -20px;
-    //     line-height: 142%;    
-    //     position: absolute;
-    //     top: 0;
-    //     padding-left:2vw;
-    //     }
-        
-    //     &__bottom {
-    //         display: flex;
-    //         flex-flow: row;
-    //         align-items: center;
-    //         justify-content: space-between;
-    //         width: 100%;
-    //     }
-    
-    
-    //     &__button {
-    //         background: transparent;
-    //         color: #FFFFFF;
-    //         border-radius: 40px;
-    //     }
-    
-    //     &__buttonText {
-    //         padding: .3vh .6vw;
-    //     }
-    
-    //     &__details {
-    //         color:#FFFFFF !important;
-    //         margin-right: 0.5vw;
-    //     }
-    
-    //     &__arrow {
-    //         padding-bottom: 0.5vh;
-    //     }
-    
-    
-    //     &__networkBlock {
-    //         width: 35%;
-    //         text-align: right;
-    //     }
-    //     &__aNetwork {
-    //         margin-right: 1.5vw;
-    //     }
-    //     &__aNetwork:first-child {
-    //         padding-top: 7px;
-    //     }
-
-
-    
-
-    
-    // }
         
     .endingBlock {
         // width: 100%;
