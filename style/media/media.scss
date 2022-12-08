@@ -154,78 +154,76 @@
             margin-left: 1.5vw;
         }
     }
-    .footerBlock {
-
-    }
-
 }
 
 ////доп расширения для резиновой вёрстки
-// @media screen and (max-width:1600px) {
-//     .underheader-block {
-//         height: 100vh;
-//         &__title{
-//             padding-top: 20vh;
-//         }
-//     }
-//     .chooseTour-block {
-//         &__text {
-//             margin-bottom: 14vh;
-//         }
-//         &__title {
-//             width: 60vw;
-//             text-align: center;
-//             margin-bottom: 4.5vh;
-//         }
-//         &__ul {
-//             width:68.5vw;
-//         }
-//     }
-    
-
-// }
-
-// @media screen and (max-width:1400px) {
-//     .Vheader-block {
-//         &__logo {
-//             width: 15vw;
-//             padding-left: 0vw;
-//         }
-//         &__nav {
-//             width: 45vw;
-//             padding-left: 3vw;
-//         }
-//         &__number{
-//             width: 16vw;
-//             padding-right: 4.5vw;
-//         }
-//     }
-//     .header-block {
-//         &__logo {
-//             width: 15vw;
-//             margin-left: -10vw;
-//         }
-//         &__nav {
-//             width: 40vw;
-//             padding-left: 3vw;
-//         }
-//         &__number{
-//             width: 16vw;
-//             padding-right: 4.5vw;
-//             margin-right: -13vw;
-//         }
-//     }
-
-//     .listTour {
-//         margin-bottom: 14vh;
-
-//         &__divImg {
-//             width: 30vw;
-//             height: 54.2vh;
-//             margin-bottom: 2.5vh;
-//         }
-//     }
-// }
+@media screen and (max-width:1600px) {
+    .Vheader-block {
+        &__nav {
+            width: 34vw;
+        }
+    }
+    .header-block {
+        &__nav {
+            width: 34vw;
+        }
+    }
+    .chooseTour-block {
+        &__ul {
+            width: 60vw;
+        }
+    }
+    .CollectTour {
+        &__title {
+            width: 100%;
+        }
+        &__description {
+            width: 44%;
+        }
+    }
+    .travelItemBlock {
+        &__networkBlock {
+            width: 60%;
+        }
+    }
+    .FeedbackBottom {
+        &__item {
+            min-height: 70vh;
+        }
+    }
+    .Feedback {
+        &__title {
+            width: 100%;
+        }
+        &__description {
+            width: 60%;
+        }
+    }
+    .PhotosBlock {
+        &__title {
+            width: 100%;
+        }
+        &__description {
+            width: 60%;
+        }
+    }
+    .travelHistory {
+        &__title {
+            width: 100%;
+        }
+        &__description {
+            width: 60%;
+        }
+    }
+}
+////доп расширения для резиновой вёрстки
+@media screen and (max-width:1400px) {
+    .form {
+        &__input {
+            width: 87%;
+        }
+    }
+}
 
 
 @media screen and (max-width:1024px) {
@@ -513,7 +511,7 @@
         height: 73vh;
     
         &__networkBlock {
-            width: 45%;
+            width: 55%;
         }
         &__text {
             height: 80%;
@@ -598,894 +596,517 @@
 
 }
 
-
 ////доп расширения для резиновой вёрстки
-// @media screen and (max-width:1000px){
-//     .chooseTour-block {
-//         &__text {
-//             margin-bottom: 7vh;
-//         }
-//         &__title {
-//             width: 90vw;
-//             margin-bottom: 5vh;
-//         }
-//         &__ul {
-//             width:70vw;
-//             flex-wrap: wrap;
-//         }
-//         &__li {
-//             margin-bottom: 1.3vh;
-//         }
-//         &__li:nth-child(4) {
-//             padding-left: 0vh;
-//         }
-//         &__li:nth-child(5) {
-//             padding-right: 0vh;
-//         }
-//     }
-//     }
+@media screen and (max-width:800px) {
+    .Vheader-block {
+        &__nav {
+            width: 49vw;
+        }
+    }
+    .header-block {
+        &__nav {
+            width: 49vw;
+        }
+    }
+    .chooseTour-block {
+        &__ul {
+            width: 80vw;
+        }
+    }
 
-
+}
 ////доп расширения для резиновой вёрстки
-// @media screen and (max-width:800px) {
-//     .Vheader-block {
-//         &__logo {
-//             width: 50vw;
-//             padding-left: 1vw;
-//         }
-//         &__nav {
-//            display: none;
-//         }
-//         &__logo-img {
-//             width: 133px;
-//             height: 22px;
-//         }
-//         &__number{
-//             width: 33%;
-//         }
-//         }
-    
-//         .header-block {
-//             &__nav {
-//                 display: none;
-//             }
-//             &__logo {
-//                 width: 40vw;
-//                 padding-left: 1.5vw;
-//             }
-//             &__logo-img {
-//                 width: 133px;
-//                 height: 22px;
-//             }
-//             &__number{
-//                 width: 40%;
-//                 padding-right: 2.5vw;
-//             }
-//         }
-//         .chooseTour-block {
-//             &__text {
-//                 margin-bottom: 7vh;
-//             }
-//             &__title {
-//                 width: 90vw;
-//                 margin-bottom: 5vh;
-//             }
-//             &__ul {
-//                 width:90vw;
-//                 flex-wrap: wrap;
-//             }
-//             &__li {
-//                 margin-bottom: 1.3vh;
-//             }
-//             &__li:nth-child(4) {
-//                 padding-left: 0vh;
-//             }
-//             &__li:nth-child(5) {
-//                 padding-right: 0vh;
-//             }
-//         }
-
-
-// }
-////доп расширения для резиновой вёрстки
-// @media screen and (max-width:600px) {
-//     .listTour {
-//         justify-content: center;
-//         &__divImg {
-//             width: 65vw;
-//             height: 70vh;
-//         }
-//     }
-
-//     .form {
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-flow: column;
-//         flex-wrap: wrap;
-//         background: #FFFFFF;
-//         border-radius: 50px;
-//         padding: 4vh 4vw 4vh 4vw;
-//         &__item {
-//             width: 94%;
-//             margin-bottom: 4.3vh;
-//         }
-//         &__item:nth-child(6) {
-//             margin-bottom: 6vh;
-//         }
+@media screen and (max-width:650px) {
+        // на 900px/700px
+        .Vheader-block {
+            &__logo {
+                width: 37vw;
+                padding-left: 1.1vw;
+            }
+            &__logo-img {
+                width: 100%;
+                max-width: 181px;
+                max-height: 31px;
+            }
+            &__nav {
+                display: none;
+            }
         
-//         &__underInput {
-//             margin-bottom: 0.8vh;
-//         }
+            &__number{
+                width: 34.5vw;
+                padding-right: 1.1vw;
+            }
+        }
         
-//         &__input {
-
-//             width: 91%!important;
-//             height: 1vh;
-//         }
-
-//     }
-
-//     .textArea-item {
-//         width: 93%;
-//         margin-top: -1vh;
-//         margin-bottom: 6vh;
-//     }
-//     .textArea-item textarea {
-//         width: 100%;
-//         height: 22vh;
-//     }
-    
-//     .ageCheck {
-//         width: 93%;
-//         margin-bottom: 5.5vh;
+        .header-block {
+            &__logo {
+                width: 37vw;
+                padding-left: 1.1vw;
+            }
+            &__logo-img {
+                fill: black;
+                width: 100%;
+                max-width: 181px;
+                max-height: 31px;
+            }
+            &__nav {
+               display: none;
+            }
         
-//         &__input {
-//             margin-right: 1.9vw;
-//         }
-//         &__radioBlock {
-//             margin-right: 10.4vw;
-//         }
-    
-//         &__radioBlock:nth-child(2) {
-//             margin-right: 0vw;
-//         }
-
-//     }
-//     //размер круга
-//     #leftInputRadio, #rightInputRadio {
-//         width: 20px;
-//         height: 20px;
-//     }
-    
-    
-//     .aceptBlock {
-//         width: 93%;
-//         display: flex;
-//         align-items: center;
-//         justify-content: left;
-//         margin-bottom: 5vh;
-    
-//         &__input {
-//             margin-right: 3.1vw;
-//         }
-//         &__label {
-//             width: 85%;
-//         }
-//         &__a {
-//             white-space: pre-wrap !important;
-//             content: '';
-//             color: #1B1F2B;
-//             margin-left: 1.4vw;
-//         }
-//         &__a::before {
-//             content: '';
-//             background-color: #1B1F2B;
-//         }
-    
-//     }
-//     //рамзер чек бокса(значок)
-//     #aceptBlockID {
-//         margin-top: -9vh;
-//         width: 20px;
-//         height: 20px;
-//     }
-
-//     .PhotosBlock {
-//         &__img1 {
-//             width: 32%;
-//             height: 17vh;
-//         }
-    
-//         &__img2 {
-//             width: 24%;
-//             height: 18vh;
-//         }
-//     }
-
-//     .footerBlock {
-//         width: 100%;
-//         height: 90px;
-//         display: flex;
-//         flex-flow: column;
-//         justify-content: center;
-//         align-items: center;
+            &__number{
+                width: 34.5vw;
+                padding-right: 1.1vw;
+            }
+        }
         
-//         &__left {
-//            color: #A6A6A6;
-//            margin-bottom: 1vh;
-//         }
-//         &__right {
-//             // width: 95%;
-//             width: fit-content;
-//             display: flex;
-//             flex-flow: row;
-//             justify-content: space-between;
-//             align-items: center;
-//             padding-bottom: 2vh;
-//         }
-    
-//         &__img {
-//             margin-right: 0.5vw;
-//         }
-
-//         // &__blockNetwork {
-//         //     width: 33%;
-//         //     display: flex;
-//         //     justify-content: center;
-//         //     align-items: center;
-//         // }
-//         &__blockNetwork {
-//             margin-right: 1vw;
-//         }
-//         &__blockNetwork:last-child {
-//             margin-right: 0vw;
-//         }
-
-
-//     }
-
-//     .Feedback {
-//         margin-bottom: 13.5vh;
-//         &__top {
-//             margin-bottom: 9vh;
-//         }
-//         &__title {
-//             width: 95%;
-//             margin-bottom: 3vh;
-//         }
-//         &__description {
-//             width: 100%;
-//             color: #A6A6A6;
-//             text-align: center;
-//         }
-//     }
-    
-//     .FeedbackBottom {
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: flex-start;
-//         flex-flow: column;
-    
-//         &__item {
-//             width: 92%;
-
-//             padding: 3vh 3vw 3vh 3vw;
-//             background: #F4F0E9;
-//             border-radius: 20px;
-//             height: 45.5vh;
-//             // display: flex;
-//             flex-direction: column;
-//             justify-content: space-between;
-//             align-items: space-between;
-//             flex-flow: column;
-//             display: inline-block;
-//             // display: inline-flex;
-//             // overflow:scroll;
-
-//         }
-
-//         &__item:nth-child(1) {
-//             margin-bottom: 2vh;
-//         }
-//         &__item:nth-child(2) {
-//             height: 70vh;
-//         }
-    
-//         &__top {
-//             width: 92%;
-//             margin-bottom: 2.5vh;
-//             padding-left: 4vw;
-//         }
-    
-//         &__bottom {
-//             display: flex;
-//             flex-flow: row;
-//             justify-content: space-between;
-//             align-items: center;
-//             padding-left: 3vw;
-//             padding-right: 3vw;
-//             padding-top: 6.5vh;
-//         }
-       
-    
-//         &__btndescription {
-//             margin-bottom: 2vh;
-//         }
-    
-    
-//     }
-
-//     .travelHistory {
-
-//         margin-bottom: 15vh;
-//         &__top {
-//             margin-bottom: 8vh;
-//         }
-//         &__title {
-//             width: 80%;
-//             margin-bottom: 3vh;
-//         }
-//         &__description {
-//             width: 100%;
-//         }
+            .underheader-block {
+                // background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                //  url('../image/underHeader/Mini_underheader_Background.png');
+                height: 81.5vh;
+                background-position: 28% 50%;
+                background-size: cover;
+                margin-bottom: 6.5vh;
         
-//         }
+                &__title {
+                    padding-top: 8vh;
+                    margin-bottom: 1vh;
+                }
+                &__description {
+                    width: 70vw;
+                    margin-bottom: 3vh;
+                    padding-top: 6vh;
+                }
+                &__button {
+                    margin-top: 1vh;
+                    padding: 1vh 6vw;
+                    min-width: 6vw;
+                }
+            }
         
-//     .travelItemBlock {
-//         position: relative;
-//         margin-bottom: 5vh;
-//         overflow: hidden;
-//         border-radius: 40px;
-    
-    
-//         &__img {
-//             width: 100%;
-//             height: 100%;
-//         }
-    
-    
-//         &__text {
-//             width: 149vw;
-//             position: absolute;
-//             display: flex;
-//             flex-flow: column;
-//             justify-content: space-between;
-//             align-items: left;
-//             text-align: left;
-//             padding: 5vh 7vw 5vh 7vw;
-//             margin-top: 1vh;
-//             margin-left: 2vw;
-//             top: 0;
-//             z-index: 3;
-//             color: #FFFFFF;
-//         }
-    
-//         &__top1 {
-//             margin-bottom: 10vh;
-//             width: 50%;
-    
-//         }
-    
-//         &__top {
-//             margin-bottom: 24.5vh;
-//             width: 50%;
-//         }
+            .chooseTour-block {
+                &__text {
+                    margin-bottom: 6vh;
+                }
+                &__title {
+                    width: 90vw;
+                    margin-bottom: 5vh;
+                }
+                &__ul {
+                    width: 60vw;
+                    flex-wrap: wrap;
+                }
+                &__li {
+                    margin-bottom: 1.3vh;
+                }
+                &__li:nth-child(4) {
+                    padding-left: 6vh;
+                }
+                &__li:nth-child(5) {
+                    padding-right: 6vh;
+                }
+            }
         
-//         &__title {
-//             width: 60%;
-//             margin-bottom: 3.5vh;
-//         }
-    
-//         &__descriptionLi {
-//             position: relative;
-//             padding-left:1vw;
-//         }
-//         &__descriptionLi:first-child {
-//             margin-top: 3vh;
-//         }
-    
-//         &__descriptionLi::before {
-//         color: #ffffff;
-//         content:"\2022";
-//         font-size: 26px;
-//         font-weight: 700;
-//         left: -20px;
-//         line-height: 142%;    
-//         position: absolute;
-//         top: 0;
-//         padding-left:2vw;
-//         }
+            .listTour {
+                margin-bottom: 11vh;
+                &__divImg {
+                    // min-height: 318px;
+                    // min-width: 318px;
+                    width: 89vw;
+                    height: 50vh;
+                    margin-bottom: 2.2vh;
+                    border-radius: 20px;
+                }
+                &__imgBack {
+                    display: block;
+                    position: absolute;
+                    background-size: 100% 154%;
+                    background-position: 0% 55%;
+                
+                }
+                &__text {
+                    padding: 4.5vh 0vw 4vh 7vw;
+                }
+                &__title {
+                    width: 100%;
+                }
         
-//         &__bottom {
-//             display: flex;
-//             flex-flow: row;
-//             align-items: center;
-//             justify-content: space-between;
-//             width: 100%;
-//         }
-    
-    
-//         &__button {
-//             background: transparent;
-//             color: #FFFFFF;
-//             border-radius: 40px;
-//         }
-    
-//         &__buttonText {
-//             padding: .3vh .6vw;
-//         }
-    
-//         &__details {
-//             color:#FFFFFF !important;
-//             margin-right: 0.5vw;
-//         }
-    
-//         &__arrow {
-//             padding-bottom: 0.5vh;
-//         }
-    
-    
-//         &__networkBlock {
-//             width: 35%;
-//             text-align: right;
-//         }
-//         &__aNetwork {
-//             margin-right: 1.5vw;
-//         }
-//         &__aNetwork:first-child {
-//             padding-top: 7px;
-//         }
-
-
-    
-
-    
-//     }
-
-
-
-// }
-
+        
+            }
+        
+            .CollectTour {
+                margin-bottom: 8vh;
+                &__top {
+                    margin-bottom: 6vh
+                }
+                &__title {
+                margin-bottom: 3.5vh;
+                }
+                &__description {
+        
+                    width: 90%;
+                }
+            }
+            
+            .form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            flex-wrap: wrap;
+            background: #FFFFFF;
+            border-radius: 50px;
+            
+            padding: 4vh 4vw 0vh 4vw;
+            &__item {
+                width: 94%;
+                margin-bottom: 5vh;
+            }
+            &__item:nth-child(6) {
+                margin-bottom: 6vh;
+            }
+            
+            &__underInput {
+                margin-bottom: 0.8vh;
+            }
+            
+            &__input {
+                display: inline-block;
+                // width:100%;
+                width: 93%!important;
+                height: 1vh;
+            }
+            
+            &__select {
+                width: 100% !important;
+                padding: 10px 18px !important;
+            }
+            
+            &__textarea {
+                width: 100%; 
+                resize: none;
+                box-sizing: border-box;
+            }
+           
+            &__selectLabel::after {
+                right: 11px;
+                top: 5px;
+            }
+            }
+            .textArea-item {
+                margin-top: -2vh;
+                margin-bottom: 10vh;
+                height: 21vh;
+                width: 94%;
+            }
+            .ageCheck {
+                width: 94%;
+                margin-bottom: 5vh;
+                &__radioBlock {
+                    margin-right: 5.4vw;
+                }
+                &__label {
+                    padding-left: 37px;
+                }
+                
+                }
+            .aceptBlock {
+                width: 94%;
+            }
+            .CollButtomBlock {
+                width: 93%;
+                &__submit {
+                    width: 46%;
+                    margin-left: 1vw;
+                    margin-right: 3vw;
+                }
+            }
+            .Feedback {
+                margin-bottom: 11.5vh;
+                &__title {
+                    margin-bottom: 3.5vh;
+                    width: 100%;
+                }
+                &__description {
+                    width: 100%;
+                }
+                &__top {
+                    margin-bottom: 7vh;
+                }
+            }
+            .FeedbackBottom {
+                flex-flow: column;
+                align-items: center;
+                &__top {
+                    width: 92%;
+                }
+                &__item {
+                    min-height: 60vh;
+                    width: 82vw;
+                    padding: 4vh 0.5vw 2vh 4.5vw;
+                    border-radius: 20px;
+                }
+                &__item1 {
+                    min-height: 50vh;
+                    margin-bottom: 2vh;
+                }
+                &__item2 {
+                    min-height: 70vh;
+                }
+                &__bottom {
+                    width: 94%;
+                    padding-bottom: 0vh;
+                }
+            }
+            .travelHistory {
+                margin-bottom: 12.5vh;
+                &__top {
+                    margin-bottom: 8vh;
+                }
+                
+                &__title {
+                    width: 80%;
+                    margin-bottom: 3vh;
+                }
+                &__description {
+                    width: 100%;
+                }
+            }
+            
+            .travelItemBlock {
+                border-radius: 25px;
+                margin-bottom: 3vh;
+                height: 71vh;
+            
+                &__networkBlock {
+                    width: 45%;
+                }
+                &__text {
+                    width: 120%;
+                    height: 87%;
+                    padding: 4.5vh 0vw 0vh 10vw;
+                }
+                &__aNetwork {
+                    margin-right: 3vw;
+                }
+                &__title {
+                    width: 70%;
+                    margin-bottom: 3.5vh;
+                }
+                &__descriptionText {
+                    width: 120%;
+                }
+                &__descriptionLi::before {
+                    font-size: 15px;
+                    margin-left: -4vw;
+                }
+                &__descriptionLi:first-child {
+                    margin-top: 3.5vh;
+                }
+                &__descriptionLi {
+                    padding-left: 3.5vh;
+                }
+                &__imgBack {
+                    display: block;
+                    background-size: 196% 100%;
+                    background-position: 53% 0%;
+                    background-repeat: no-repeat;
+                    cursor: pointer;
+                    position: absolute;
+                }
+                &__networkBlock {
+                    display: none;
+                }
+        
+        
+            }
+        
+            .PhotosBlock {
+                margin-bottom: 9.2vh;
+                padding-left: 2vw;
+                padding-right: 2vw;
+            
+                    &__top {
+                        width: 100%;
+                        margin-bottom: 8vh;
+                    }
+                    &__title {
+                        width: 100%;
+                        margin-bottom: 3.5vh;
+                    }
+                    &__description {
+                        width: 104%;
+                    }
+            
+                &__bottom {
+                    width: 92%;
+                    padding: 0 3vw 0 3vw;
+                }
+                &__line1 {
+                    margin-bottom: 3vh;
+                }
+                &__line2 {
+                    margin-bottom: 4vh;
+                }
+                &__img1 {
+                    width: 48%;
+                    height: 16vh;
+                }
+            
+                &__img2 {
+                    width: 32%;
+                    height: 17vh;
+                }
+            
+            }
+            #hide360 {
+                display: none;
+            }
+                
+            .endingBlock {
+                // width: 100%;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: space-between;
+                margin-bottom: 11.5vh;
+                padding: 0 11vw 0 11vw;
+            
+                &__left {
+                    width: 52%;
+                    height: 100%;
+                    background-size: cover;
+                    margin-bottom: 5vh;
+                }
+            
+                &__right {
+                    width: 120%;
+                    height: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+            
+                &__title {
+                    margin-bottom: 3.4vh;
+                }
+            
+                &__description {
+                    color: #A6A6A6;
+                }
+               
+                &__a {
+                    color:  #1B1F2B;
+                }
+                &__a::before {
+                    content: '';
+                    background-color: #1B1F2B;
+                }
+                
+            }
+        
+            .footerBlock {
+                width: 100%;
+                height: 90px;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+                
+                &__left {
+                   color: #A6A6A6;
+                    margin-bottom: 10px;
+                }
+                &__right {
+                    // width: 35%;
+                    width: fit-content;
+                    display: flex;
+                    flex-flow: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                &__blockNetwork {
+                    margin-right: 23px;
+                    display: flex;
+                    align-items: flex-end;
+                }
+                &__blockNetwork:last-child {
+                    margin-right: 0vw;
+                }
+            
+                &__img {
+                    margin-right: 4px;
+                    padding-bottom: 2px;
+                }
+                &__a {
+                    width: 100%;
+                    color:  #1B1F2B;
+                }
+                &__a::before {
+                    content: '';
+                    background-color: #1B1F2B;
+                }
+                a:hover {
+                    border-bottom: 3px solid #413f3f; /* Ширина, вид и цвет рамки */
+                    opacity: 0.5;
+                }
+        
+            }
+        }
 
 @media screen and (max-width:360px) {
 // на 640px
-.Vheader-block {
-    &__logo {
-        width: 37vw;
-        padding-left: 1.1vw;
-    }
-    &__logo-img {
-        width: 100%;
-        max-width: 181px;
-        max-height: 31px;
-    }
-    &__nav {
-        display: none;
-    }
-
-    &__number{
-        width: 34.5vw;
-        padding-right: 1.1vw;
-    }
-}
-
-.header-block {
-    &__logo {
-        width: 37vw;
-        padding-left: 1.1vw;
-    }
-    &__logo-img {
-        fill: black;
-        width: 100%;
-        max-width: 181px;
-        max-height: 31px;
-    }
-    &__nav {
-       display: none;
-    }
-
-    &__number{
-        width: 34.5vw;
-        padding-right: 1.1vw;
-    }
-}
-
-    .underheader-block {
-        // background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        //  url('../image/underHeader/Mini_underheader_Background.png');
-        height: 81.5vh;
-        background-position: 28% 50%;
-        background-size: cover;
-        margin-bottom: 6.5vh;
-
-        &__title {
-            padding-top: 8vh;
-            margin-bottom: 1vh;
-        }
-        &__description {
-            width: 70vw;
-            margin-bottom: 3vh;
-            padding-top: 6vh;
-        }
-        &__button {
-            margin-top: 1vh;
-            padding: 1vh 6vw;
-            min-width: 6vw;
-        }
-    }
-
-    .chooseTour-block {
-        &__text {
-            margin-bottom: 6vh;
-        }
-        &__title {
-            width: 90vw;
-            margin-bottom: 5vh;
-        }
-        &__ul {
-            width:70vw;
-            flex-wrap: wrap;
-        }
-        &__li {
-            margin-bottom: 1.3vh;
-        }
-        &__li:nth-child(4) {
-            padding-left: 6vh;
-        }
-        &__li:nth-child(5) {
-            padding-right: 6vh;
-        }
-    }
-
-    .listTour {
-        margin-bottom: 11vh;
-        &__divImg {
-            // min-height: 318px;
-            // min-width: 318px;
-            width: 89vw;
-            height: 50vh;
-            margin-bottom: 2.2vh;
-            border-radius: 20px;
-        }
-        &__imgBack {
-            display: block;
-            position: absolute;
-            background-size: 100% 154%;
-            background-position: 0% 55%;
-        
-        }
-        &__text {
-            padding: 4.5vh 0vw 4vh 7vw;
-        }
-        &__title {
-            width: 100%;
-        }
-
-
-    }
-
-    .CollectTour {
-        margin-bottom: 8vh;
-        &__top {
-            margin-bottom: 6vh
-        }
-        &__title {
-        margin-bottom: 3.5vh;
-        }
-        &__description {
-
-            width: 90%;
-        }
-    }
-    
-    .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    flex-wrap: wrap;
-    background: #FFFFFF;
-    border-radius: 50px;
-    
-    padding: 4vh 4vw 0vh 4vw;
-    &__item {
-        width: 94%;
-        margin-bottom: 5vh;
-    }
-    &__item:nth-child(6) {
+.chooseTour-block {
+    &__text {
         margin-bottom: 6vh;
     }
-    
-    &__underInput {
-        margin-bottom: 0.8vh;
-    }
-    
-    &__input {
-        display: inline-block;
-        // width:100%;
-        width: 87%!important;
-        height: 1vh;
-    }
-    
-    &__select {
-        width: 100% !important;
-        padding: 10px 18px !important;
-    }
-    
-    &__textarea {
-        width: 100%; 
-        resize: none;
-        box-sizing: border-box;
-    }
-    &__selectLabel::after {
-        right: 12px;
-        top: 1px;
-    }
-    }
-    .textArea-item {
-        margin-top: -2vh;
-        margin-bottom: 10vh;
-        height: 21vh;
-        width: 94%;
-    }
-    .ageCheck {
-        width: 94%;
+    &__title {
+        width: 90vw;
         margin-bottom: 5vh;
-        &__radioBlock {
-            margin-right: 5.4vw;
-        }
-        &__label {
-            padding-left: 37px;
-        }
-        
-        }
-    .aceptBlock {
-        width: 94%;
     }
-    .CollButtomBlock {
-        width: 93%;
-        &__submit {
-            width: 46%;
-            margin-left: 1vw;
-            margin-right: 3vw;
-        }
+    &__ul {
+        width: 70vw;
+        flex-wrap: wrap;
     }
-    .Feedback {
-        margin-bottom: 11.5vh;
-        &__title {
-            margin-bottom: 3.5vh;
-            width: 100%;
-        }
-        &__description {
-            width: 100%;
-        }
-        &__top {
-            margin-bottom: 7vh;
-        }
+    &__li {
+        margin-bottom: 1.3vh;
     }
-    .FeedbackBottom {
-        flex-flow: column;
-        align-items: center;
-        &__top {
-            width: 92%;
-        }
-
-        &__item {
-            min-height: 58vh;
-            width: 82vw;
-            padding: 4vh 0.5vw 2vh 4.5vw;
-            border-radius: 20px;
-        }
-        &__item1 {
-            margin-bottom: 2vh;
-        }
-        &__item2 {
-            min-height: 88vh;
-        }
-        &__bottom {
-            width: 94%;
-            padding-bottom: 0vh;
-        }
+    &__li:nth-child(4) {
+        padding-left: 6vh;
     }
-    .travelHistory {
-        margin-bottom: 12.5vh;
-        &__top {
-            margin-bottom: 8vh;
-        }
-        
-        &__title {
-            width: 80%;
-            margin-bottom: 3vh;
-        }
-        &__description {
-            width: 100%;
-        }
+    &__li:nth-child(5) {
+        padding-right: 6vh;
     }
-    
-    .travelItemBlock {
-        border-radius: 25px;
-        margin-bottom: 3vh;
-        height: 71vh;
-    
-        &__networkBlock {
-            width: 45%;
-        }
-        &__text {
-            width: 120%;
-            height: 87%;
-            padding: 4.5vh 0vw 0vh 10vw;
-        }
-        &__aNetwork {
-            margin-right: 3vw;
-        }
-        &__title {
-            width: 70%;
-            margin-bottom: 3.5vh;
-        }
-        &__descriptionText {
-            width: 120%;
-        }
-        &__descriptionLi::before {
-            font-size: 15px;
-            margin-left: -4vw;
-        }
-        &__descriptionLi:first-child {
-            margin-top: 3.5vh;
-        }
-        &__descriptionLi {
-            padding-left: 3.5vh;
-        }
-        &__imgBack {
-            display: block;
-            background-size: 196% 100%;
-            background-position: 53% 0%;
-            background-repeat: no-repeat;
-            cursor: pointer;
-            position: absolute;
-        }
-        &__networkBlock {
-            display: none;
-        }
+}
+.form {
+&__selectLabel::after {
+    right: 12px;
+    top: 1px;
+}
+&__input {
+    display: inline-block;
+    // width:100%;
+    width: 87%!important;
+    height: 1vh;
+}
+}
+.FeedbackBottom {
+    &__item {
+        min-height: 58vh;
+        width: 82vw;
+        padding: 4vh 0.5vw 2vh 4.5vw;
+        border-radius: 20px;
+    }
+    &__item1 {
+        margin-bottom: 2vh;
+    }
+    &__item2 {
+        min-height: 88vh;
+    }
+}
 
 
-    }
-
-    
-    
-    .PhotosBlock {
-        margin-bottom: 9.2vh;
-        padding-left: 2vw;
-        padding-right: 2vw;
-    
-            &__top {
-                width: 100%;
-                margin-bottom: 8vh;
-            }
-            &__title {
-                width: 100%;
-                margin-bottom: 3.5vh;
-            }
-            &__description {
-                width: 104%;
-            }
-    
-        &__bottom {
-            width: 92%;
-            padding: 0 3vw 0 3vw;
-        }
-        &__line1 {
-            margin-bottom: 3vh;
-        }
-        &__line2 {
-            margin-bottom: 4vh;
-        }
-        &__img1 {
-            width: 48%;
-            height: 16vh;
-        }
-    
-        &__img2 {
-            width: 32%;
-            height: 17vh;
-        }
-    
-    }
-    #hide360 {
-        display: none;
-    }
-        
-    .endingBlock {
-        // width: 100%;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: space-between;
-        margin-bottom: 11.5vh;
-        padding: 0 11vw 0 11vw;
-    
-        &__left {
-            width: 52%;
-            height: 100%;
-            background-size: cover;
-            margin-bottom: 5vh;
-        }
-    
-        &__right {
-            width: 120%;
-            height: 100%;
-            display: flex;
-            flex-flow: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-    
-        &__title {
-            margin-bottom: 3.4vh;
-        }
-    
-        &__description {
-            color: #A6A6A6;
-        }
-       
-        &__a {
-            color:  #1B1F2B;
-        }
-        &__a::before {
-            content: '';
-            background-color: #1B1F2B;
-        }
-        
-    }
-
-    .footerBlock {
-        width: 100%;
-        height: 90px;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        
-        &__left {
-           color: #A6A6A6;
-            margin-bottom: 10px;
-        }
-        &__right {
-            // width: 35%;
-            width: fit-content;
-            display: flex;
-            flex-flow: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-        &__blockNetwork {
-            margin-right: 23px;
-            display: flex;
-            align-items: flex-end;
-        }
-        &__blockNetwork:last-child {
-            margin-right: 0vw;
-        }
-    
-        &__img {
-            margin-right: 4px;
-            padding-bottom: 2px;
-        }
-        &__a {
-            width: 100%;
-            color:  #1B1F2B;
-        }
-        &__a::before {
-            content: '';
-            background-color: #1B1F2B;
-        }
-        a:hover {
-            border-bottom: 3px solid #413f3f; /* Ширина, вид и цвет рамки */
-            opacity: 0.5;
-        }
-
-    }
 }
 
 

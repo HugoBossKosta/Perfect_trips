@@ -35,6 +35,7 @@
 
     &__li {
         cursor: pointer;
+        white-space: nowrap;
     }
     &__li::before {
         content: '';
@@ -44,6 +45,7 @@
     &__number{
         width: 10vw;
         text-align: end;
+        white-space: nowrap;
   
     }
     &__a {
@@ -116,10 +118,12 @@
 
     &__li {
         cursor: pointer;
+        white-space: nowrap;
     }
     &__number{
         width: 10vw;
         text-align: end;
+        white-space: nowrap;
         
     }
     &__a {
