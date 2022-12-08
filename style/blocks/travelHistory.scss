@@ -61,6 +61,7 @@ margin-bottom: 10.5vh;
 
     &__text {
         // position: absolute;
+        height: inherit;
         position: relative;
         display: flex;
         flex-flow: column;
@@ -76,13 +77,13 @@ margin-bottom: 10.5vh;
     }
 
     &__top1 {
-        margin-bottom: 10vh;
+        // margin-bottom: 10vh;
         width: 50%;
 
     }
 
     &__top {
-        margin-bottom: 20.5vh;
+        // margin-bottom: 20.5vh;
         width: 50%;
     }
    
