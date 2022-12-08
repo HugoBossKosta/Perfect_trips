@@ -16,6 +16,7 @@
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../image/underHeader/Underheader_Background.jpg');
     height: 87vh;
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 
     &__title{
         text-align: center;

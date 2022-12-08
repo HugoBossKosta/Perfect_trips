@@ -91,7 +91,12 @@
             width: 91%;
         }
         &__item {
+            width: 49%;
             margin-bottom: 3vh;
+        }
+        &__selectLabel::after {
+            right: 24px;
+            top: 14px;
         }
     }
     .textArea-item {
@@ -144,9 +149,13 @@
     }
 
     .endingBlock {
+        margin-bottom: 12vh;
         &__right {
             margin-left: 1.5vw;
         }
+    }
+    .footerBlock {
+
     }
 
 }
@@ -268,6 +277,9 @@
          url('../image/underHeader/Mini_underheader_Background.png');
         height: 108vh;
         background-size: 100% 100%;
+        background-position: 50% 50%;
+        
+
         margin-bottom: 18vh;
         &__title {
             width: 60vw;
@@ -310,15 +322,10 @@
         }
 
         &__imgBack {
-            display: block;
-            position: absolute;
-            // width: 19.8vw;
-            // height: 49.2vh;
-            height: 100%;
-            width: 100%;
-            background-size: cover;
-            background-position: 0% 62%;
+            background-size: 100% 128%;
+            background-position: 0% 59%;
         }
+
         &__text {
             padding: 6vh 3.5vw 6.5vh 3.5vw;
         }
@@ -360,6 +367,10 @@
         &__textarea {
             width: 100%; 
 
+        }
+        &__selectLabel::after {
+            right: 22px;
+            top: 16px;
         }
         }
     .textArea-item textarea {
@@ -1140,12 +1151,8 @@
         &__imgBack {
             display: block;
             position: absolute;
-            // width: 19.8vw;
-            // height: 49.2vh;
-            height: 114%;
-            width: 100%;
-            background-size: cover;
-            background-position: 0% 58%;
+            background-size: 100% 154%;
+            background-position: 0% 55%;
         
         }
         &__text {
@@ -1157,7 +1164,6 @@
 
 
     }
-
 
     .CollectTour {
         margin-bottom: 8vh;
@@ -1183,9 +1189,6 @@
     border-radius: 50px;
     
     padding: 4vh 4vw 0vh 4vw;
-    
-    
-    
     &__item {
         width: 94%;
         margin-bottom: 5vh;
@@ -1214,7 +1217,10 @@
         width: 100%; 
         resize: none;
         box-sizing: border-box;
-    
+    }
+    &__selectLabel::after {
+        right: 12px;
+        top: 1px;
     }
     }
     .textArea-item {
@@ -1283,9 +1289,9 @@
         }
     }
     .travelHistory {
-        margin-bottom: 18.5vh;
+        margin-bottom: 12.5vh;
         &__top {
-            margin-bottom: 13vh;
+            margin-bottom: 8vh;
         }
         
         &__title {
@@ -1298,45 +1304,48 @@
     }
     
     .travelItemBlock {
-        border-radius: 50px;
-        margin-bottom: 7vh;
-        height: 73vh;
+        border-radius: 25px;
+        margin-bottom: 3vh;
+        height: 71vh;
     
         &__networkBlock {
             width: 45%;
         }
         &__text {
-            height: 80%;
-            padding: 7vh 3.5vw 0vh 7vw;
+            width: 120%;
+            height: 87%;
+            padding: 4.5vh 0vw 0vh 10vw;
         }
         &__aNetwork {
             margin-right: 3vw;
         }
         &__title {
-            margin-bottom: 5vh;
+            width: 70%;
+            margin-bottom: 3.5vh;
         }
         &__descriptionText {
             width: 120%;
         }
         &__descriptionLi::before {
-            font-size: 20px;
-            margin-left: -1.5vw;
+            font-size: 15px;
+            margin-left: -4vw;
         }
         &__descriptionLi:first-child {
             margin-top: 3.5vh;
         }
         &__descriptionLi {
-            padding-left:2vw;
+            padding-left: 3.5vh;
         }
         &__imgBack {
             display: block;
-            // width: 100%;
-            // height: 100%;
-            background-size: 100% 100%;
-            background-position: 0% 80%;
+            background-size: 196% 100%;
+            background-position: 53% 0%;
             background-repeat: no-repeat;
             cursor: pointer;
             position: absolute;
+        }
+        &__networkBlock {
+            display: none;
         }
 
 
@@ -1392,14 +1401,14 @@
         flex-flow: column;
         justify-content: center;
         align-items: space-between;
-        margin-bottom: 13.5vh;
+        margin-bottom: 11.5vh;
         padding: 0 11vw 0 11vw;
     
         &__left {
             width: 52%;
             height: 100%;
             background-size: cover;
-            margin-bottom: 6vh;
+            margin-bottom: 5vh;
         }
     
         &__right {
@@ -1430,6 +1439,53 @@
         
     }
 
+    .footerBlock {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        
+        &__left {
+           color: #A6A6A6;
+            margin-bottom: 10px;
+        }
+        &__right {
+            // width: 35%;
+            width: fit-content;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__blockNetwork {
+            margin-right: 23px;
+            display: flex;
+            align-items: flex-end;
+        }
+        &__blockNetwork:last-child {
+            margin-right: 0vw;
+        }
+    
+        &__img {
+            margin-right: 4px;
+            padding-bottom: 2px;
+        }
+        &__a {
+            width: 100%;
+            color:  #1B1F2B;
+        }
+        &__a::before {
+            content: '';
+            background-color: #1B1F2B;
+        }
+        a:hover {
+            border-bottom: 3px solid #413f3f; /* Ширина, вид и цвет рамки */
+            opacity: 0.5;
+        }
+
+    }
 }
 
 

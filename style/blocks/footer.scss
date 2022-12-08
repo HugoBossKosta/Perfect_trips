@@ -33,14 +33,11 @@
         margin-right: 0.5vw;
     }
     &__a {
-        color:  #1B1F2B;
+        color: #1B1F2B;
     }
     &__a::before {
         content: '';
         background-color: #1B1F2B;
     }
-    a:hover {
-        border-bottom: 3px solid #413f3f; /* Ширина, вид и цвет рамки */
-        opacity: 0.5;
-    }
+
 }
