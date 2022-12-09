@@ -353,13 +353,15 @@
             width: 48%;
             margin-bottom: 4.5vh;
         }
-        
+        &__input {
+            width: 90%;
+        }
         &__underInput {
             margin-bottom: 0.9vh;
         }
         
         &__select {
-            width: 100% !important;
+            width: 100%;
         }
         
         &__textarea {
@@ -613,7 +615,11 @@
             width: 80vw;
         }
     }
-
+    .form {
+        &__input {
+            width: 87%;
+        }
+}
 }
 ////доп расширения для резиновой вёрстки
 @media screen and (max-width:650px) {
@@ -772,12 +778,12 @@
             &__input {
                 display: inline-block;
                 // width:100%;
-                width: 93%!important;
+                width: 92%;
                 height: 1vh;
             }
             
             &__select {
-                width: 100% !important;
+                width: 100%;
                 padding: 10px 18px !important;
             }
             
@@ -1053,7 +1059,21 @@
                 }
         
             }
+}
+////доп расширения для резиновой вёрстки
+@media screen and (max-width:450px) {
+    .form {
+        &__input {
+            width: 90%;
         }
+        }
+    .chooseTour-block {
+        &__ul {
+            width: 70vw;
+        }
+    }
+
+}
 
 @media screen and (max-width:360px) {
 // на 640px
@@ -1087,7 +1107,7 @@
 &__input {
     display: inline-block;
     // width:100%;
-    width: 87%!important;
+    width: 87%;
     height: 1vh;
 }
 }
