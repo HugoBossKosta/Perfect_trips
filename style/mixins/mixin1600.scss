@@ -1,0 +1,17 @@
+// от 1600px до 1024px
+$maxWidth: 1600;
+
+@mixin adaptiv-font-1600($pcSize, $mobSize) {
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize * 0.7;
+	@media (max-width: 576px) {
+		font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 360px) / #{$maxWidth}));
+	}
+	@media (min-width: 576px) {
+		font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+	}
+	@media (min-width: 1600px){
+		font-size: $pcSize + px;
+	}
+
+}

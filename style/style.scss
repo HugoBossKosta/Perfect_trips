@@ -10,6 +10,7 @@
 
 @import './mixins/mixin1920.scss';
 @import './mixins/mixin1024.scss';
+@import './mixins/mixin1600.scss';
 @import './links/linkText.scss';
 
 
@@ -57,6 +58,9 @@ h1 {
     letter-spacing: 0.02em;
     font-weight: 700;
     line-height: 109%;
+    @media screen and (max-width:1600px) {
+        @include adaptiv-font-1600(96,34);
+    }
     @media screen and (max-width:1024px) {
         @include adaptiv-font-1024(96,34);
         
