@@ -57,7 +57,6 @@ h1 {
     letter-spacing: 0.02em;
     font-weight: 700;
     line-height: 109%;
-
     @media screen and (max-width:1024px) {
         @include adaptiv-font-1024(96,34);
         
@@ -74,6 +73,7 @@ h2 {
     font-size: 59px;
     line-height: 124%;
     font-weight: 700;
+
     @media screen and (max-width:1024px) {
         @include adaptiv-font-1024(59,34);
     }
@@ -87,6 +87,9 @@ h3 {
     font-size: 35px;
         line-height: 122%;
         font-weight: 500;
+    @media screen and (max-width:1600px) {
+        font-size: 27px;
+    }
     @media screen and (max-width:1024px) {
         @include adaptiv-font-1024(35,23);
     }

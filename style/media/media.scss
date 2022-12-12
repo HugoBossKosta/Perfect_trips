@@ -168,10 +168,30 @@
             width: 34vw;
         }
     }
+    .underheader-block {
+        height: 108vh;
+        
+        margin-bottom: 18vh;
+        &__title {
+            width: 60vw;
+            padding-top: 12vh;
+            margin-bottom: 5vh;
+        }
+        &__description {
+            width: 42vw;
+            margin-bottom: 5vh;
+            padding-top: 1vh;
+        }
+        &__button {
+            padding: 1vh 2vw;
+            min-width: 2vw;
+        }
+    }
     .chooseTour-block {
         &__ul {
             width: 60vw;
         }
+
     }
     .CollectTour {
         &__title {
@@ -608,6 +628,11 @@
     .header-block {
         &__nav {
             width: 49vw;
+        }
+    }
+    .underheader-block {
+        &__title {
+            width: 80vw;
         }
     }
     .chooseTour-block {
