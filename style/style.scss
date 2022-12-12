@@ -92,7 +92,7 @@ h3 {
         line-height: 122%;
         font-weight: 500;
     @media screen and (max-width:1600px) {
-        font-size: 27px;
+        @include adaptiv-font-1600(30,23)
     }
     @media screen and (max-width:1024px) {
         @include adaptiv-font-1024(35,23);
