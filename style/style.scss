@@ -112,6 +112,10 @@ h3 {
     line-height: 122%;
     font-weight: 700;
     color: #1B1F2B;
+@media screen and (max-width:1600px) {
+    @include adaptiv-font-1600(20,14);
+}
+  
 @media screen and (max-width:1024px) {
     @include adaptiv-font-1024(23,16);
 }

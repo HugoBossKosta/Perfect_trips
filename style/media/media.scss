@@ -189,9 +189,14 @@
     }
     .chooseTour-block {
         &__ul {
-            width: 60vw;
+            width: 40vw;
         }
-
+        &__li {
+            margin-right: 0.5vw;
+        }
+        &__li:last-child {
+            margin-right: 0vw;
+        }
     }
     .CollectTour {
         &__title {
@@ -241,6 +246,9 @@
     .form {
         &__input {
             width: 87%;
+        }
+        &__ul {
+            width: 50vw;
         }
     }
 }
@@ -326,6 +334,9 @@
         }
         &__ul {
             width:68.5vw;
+        }
+        &__li {
+            margin-right: 0vw;
         }
     }
     .listTour {
